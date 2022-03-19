@@ -1,6 +1,6 @@
 ## bom-shelter
 
-A place to systematically store software bill of materials (SBOM) documents.
+SBOM storage for prototyping and demoing
 
 **Initial Goals**
 
@@ -8,6 +8,7 @@ A place to systematically store software bill of materials (SBOM) documents.
 - Assess how easy or difficult it is to use different methods for finding SPDX SBOMs.
 - Begin to develop intuitive sense of completeness, correctness and detail of "in the wild" SPDX SBOMs
 - If enough SPDX SBOMs are found of sufficient diversity, plan requirements for and potentially build a prototype of a tool for multi-SBOM analysis.
+- Prototype a cycloneDX multi-SBOM parsing demo
 
 **Potential Long Term Goals**
 
