@@ -1,16 +1,14 @@
 ## bom-shelter
 
-SBOM storage for prototyping and demoing
+You need SBOMs? `bom-shelter` has SBOMs.
 
-**Initial Goals**
+`bom-shelter` is a collection of SBOM documents that can be used for prototying SBOM tools or understanding properties of SBOMs.
 
-- Collect SPDX documents found "in the wild."
-- Assess how easy or difficult it is to use different methods for finding SPDX SBOMs.
-- Begin to develop intuitive sense of completeness, correctness and detail of "in the wild" SPDX SBOMs
-- If enough SPDX SBOMs are found of sufficient diversity, plan requirements for and potentially build a prototype of a tool for multi-SBOM analysis.
-- Prototype a cycloneDX multi-SBOM parsing demo
+The `in-the-wild` folder contains both SPDX and CycloneDX SBOMs found "in the wild," that is, associated with open source software projects. To the best of our ability, these SBOMs are meant to represent real SBOMs, not ones simply created for example purposes. Additionally, this `in-the-wild` dataset represents a diverse sample.
 
-**Potential Long Term Goals**
+**Potential Long Term Goal**
 
-- Collect CycloneDX documents too.
-- If "in the wild" SBOMs are inadequate, consider building a "synthetic" SBOM dataset using a wide range of tools
+- Consider building a "synthetic" SBOM dataset using a wide range of tools applied to a wide range of artifacts.
+
+
+Input, ideas, issues, and PR's welcome.
