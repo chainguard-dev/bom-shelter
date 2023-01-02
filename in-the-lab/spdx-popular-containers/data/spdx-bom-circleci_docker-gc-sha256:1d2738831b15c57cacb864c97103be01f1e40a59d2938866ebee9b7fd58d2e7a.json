@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-e21748a2-e082-41cb-8f21-c16dbe1e5d22",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-26T18:50:37Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-03c73d81-2a59-4065-91c5-710cc270b73c",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a",
+      "name": "sha256:1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/docker-gc@sha256:1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Fcircleci",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-circleci-docker-gc-1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a-sha256-efd65a72425b8079a7eb6901a8a3776ebf8cf3f039363fcd4eaa530516693ea3",
+      "name": "sha256:efd65a72425b8079a7eb6901a8a3776ebf8cf3f039363fcd4eaa530516693ea3",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "740df08af55cdc74e73410df3521219ef198731f"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "efd65a72425b8079a7eb6901a8a3776ebf8cf3f039363fcd4eaa530516693ea3"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "8774b676268bf53550afac55e21764cb044a0bad314ac3f6bd743ccdec139aacc2fe1e90ac8fec7118638e2d1768b22f04a44f1eb64dbaf0c7071271901a8a1b"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-circleci-docker-gc-1d2738831b15c57cacb864c97103be01f1e40a59d2938866ebee9b7fd58d2e7a-sha256-efd65a72425b8079a7eb6901a8a3776ebf8cf3f039363fcd4eaa530516693ea3"
+    }
+  ]
+}

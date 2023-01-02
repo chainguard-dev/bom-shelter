@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-5fb54431-759c-4c9f-a77f-0ae31485a2e8",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-26T16:54:57Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-5116cf1c-79a1-46f5-8cb6-1c686dbd9921",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af",
+      "name": "sha256:28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/kubeapps-asset-syncer@sha256:28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Fbitnami",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-bitnami-kubeapps-asset-syncer-28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af-sha256-cc4602728bf78fc7fc13dad4ab0d5890973e758cf0b20cd459f13a732c320f3e",
+      "name": "sha256:cc4602728bf78fc7fc13dad4ab0d5890973e758cf0b20cd459f13a732c320f3e",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6db245a041ad5814eb5f1c0b30d5ac41dea45aaa"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cc4602728bf78fc7fc13dad4ab0d5890973e758cf0b20cd459f13a732c320f3e"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "9e16e75f2679629b0c894472dfc67888810cf997e4b19df809156ab67f10b1cb92579b8da1f47befb5cde01331fd7b02687ab8dd68af5f80ad5fc27ac6012e56"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-bitnami-kubeapps-asset-syncer-28f1d448be1b87d5f19c5953be6dc4042a34d1676c687d01fa6f99264b6538af-sha256-cc4602728bf78fc7fc13dad4ab0d5890973e758cf0b20cd459f13a732c320f3e"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-2c8125c1-6eda-4d79-87be-82c813601f61",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-29T19:08:07Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-f2dc9d4c-0fdb-4038-8b80-f457095f6366",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a",
+      "name": "sha256:78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/system-upgrade-controller@sha256:78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a?arch=s390x\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Francher",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-rancher-system-upgrade-controller-78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a-sha256-5ebf3db4b6e1a0e95eef4878d9656cb6f67149342c2bbe54a3ff3c30a3fdbf0f",
+      "name": "sha256:5ebf3db4b6e1a0e95eef4878d9656cb6f67149342c2bbe54a3ff3c30a3fdbf0f",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9439ed01a4d569ea61fdae6f9fb596c01a0b64db"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5ebf3db4b6e1a0e95eef4878d9656cb6f67149342c2bbe54a3ff3c30a3fdbf0f"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "82455baa00efe8729bc9d26fce1214ca9d3dbf49c836d2f9d62e1eec49e55406c1d90fd7863ab704b8c12627b12717c41089f388a8466815967ef858ca93aaf0"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-rancher-system-upgrade-controller-78c549ec2ce0500cd944a37444d2bb32dadc86315fa3dad997a6376221ba5a9a-sha256-5ebf3db4b6e1a0e95eef4878d9656cb6f67149342c2bbe54a3ff3c30a3fdbf0f"
+    }
+  ]
+}

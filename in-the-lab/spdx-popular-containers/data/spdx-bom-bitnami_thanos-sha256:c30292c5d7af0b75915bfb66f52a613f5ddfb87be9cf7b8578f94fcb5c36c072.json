@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-348006d0-856a-432c-baf9-0e5e862f2c36",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-29T20:58:33Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-818e5b3c-ae32-4bea-862e-211256a8ce75",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072",
+      "name": "sha256:c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/thanos@sha256:c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Fbitnami",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-bitnami-thanos-c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072-sha256-bafe38b98a7502950d98980165cafa8b52fb010a7c2e267e340937757a063bb1",
+      "name": "sha256:bafe38b98a7502950d98980165cafa8b52fb010a7c2e267e340937757a063bb1",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4682346b29e287304b702b3d844f1b084a1bed41"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bafe38b98a7502950d98980165cafa8b52fb010a7c2e267e340937757a063bb1"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d2377c592e662cd6b74661d57cefee7be19c852413d43804524cefec7a3b4ddeed2bb792a650b1420c6576a0fba3e4dba54adc96be4b03c653bd30be888e4dc2"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-bitnami-thanos-c30292c5d7af0b75915bfb66f52a613f5ddfb87be9cf7b8578f94fcb5c36c072-sha256-bafe38b98a7502950d98980165cafa8b52fb010a7c2e267e340937757a063bb1"
+    }
+  ]
+}

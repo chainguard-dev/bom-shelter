@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-2a685b76-7c95-4375-b55f-2f81e7a7b4d4",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-29T20:49:41Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-d4e6bcc8-911b-416b-b627-7e828a1c3834",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f",
+      "name": "sha256:7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/rke2-runtime@sha256:7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Francher",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-rancher-rke2-runtime-7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f-sha256-049d68fcc740392b974cc4d882764ccde8311ba379a3ec3f51b5e3a539057cce",
+      "name": "sha256:049d68fcc740392b974cc4d882764ccde8311ba379a3ec3f51b5e3a539057cce",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "f0676f4b3a9aa625c3f74b4bdb912437c461df0041484145edb8a7506c3671064d74c9fccd9cc43caa932f77ce4720dc671687e7d94af613a46cc46f84c074b5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6746e9893db28a42dd8ddfb02f0e32c2fc26cfe2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "049d68fcc740392b974cc4d882764ccde8311ba379a3ec3f51b5e3a539057cce"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-rancher-rke2-runtime-7cdf66ecb1cd41151f6cc2c49f4653511ed5e20074f4863f6122819fd9779e0f-sha256-049d68fcc740392b974cc4d882764ccde8311ba379a3ec3f51b5e3a539057cce"
+    }
+  ]
+}

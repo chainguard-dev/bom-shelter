@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-8e1c6138-8814-475a-a9da-7f9995ab60ef",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-26T03:57:37Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-1b7166e0-6ecc-4cfb-88c8-3637c68efe1d",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96",
+      "name": "sha256:ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/http-echo@sha256:ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Fhashicorp",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-hashicorp-http-echo-ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96-sha256-86399148984bb1c1de601fcce62ce6fdfd7d0897b4dd20e8f5bbb9f0b1cc40a0",
+      "name": "sha256:86399148984bb1c1de601fcce62ce6fdfd7d0897b4dd20e8f5bbb9f0b1cc40a0",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dbbdeedf4aecd780cacc4d8c43b798b6896efd0e"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "86399148984bb1c1de601fcce62ce6fdfd7d0897b4dd20e8f5bbb9f0b1cc40a0"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1a674a39de76919ff120c3715a08967916fecb295bc61de3415fac4d1381e4e435db913c4298c5f80f8094d264c9e091c4541ca9bf8c43679a792a47cd859f8f"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-hashicorp-http-echo-ba27d460cd1f22a1a4331bdf74f4fccbc025552357e8a3249c40ae216275de96-sha256-86399148984bb1c1de601fcce62ce6fdfd7d0897b4dd20e8f5bbb9f0b1cc40a0"
+    }
+  ]
+}

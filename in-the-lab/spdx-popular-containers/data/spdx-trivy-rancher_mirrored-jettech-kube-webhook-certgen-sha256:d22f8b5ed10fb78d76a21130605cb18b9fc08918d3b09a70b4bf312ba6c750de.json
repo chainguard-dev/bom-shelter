@@ -1,0 +1,826 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2022-12-27T19:24:47.285779Z",
+		"creators": [
+			"Tool: trivy",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentNamespace": "http://aquasecurity.github.io/trivy/container_image/rancher/mirrored-jettech-kube-webhook-certgen@sha256:d22f8b5ed10fb78d76a21130605cb18b9fc08918d3b09a70b4bf312ba6c750de-19c02a5f-b308-428b-af7b-f78cb8b71cd5",
+	"name": "rancher/mirrored-jettech-kube-webhook-certgen@sha256:d22f8b5ed10fb78d76a21130605cb18b9fc08918d3b09a70b4bf312ba6c750de",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-Application-1b667308fab27727",
+			"filesAnalyzed": false,
+			"name": "gobinary",
+			"sourceInfo": "kube-webhook-certgen"
+		},
+		{
+			"SPDXID": "SPDXRef-ContainerImage-8ad067500ed3cd58",
+			"attributionTexts": [
+				"SchemaVersion: 2",
+				"ImageID: sha256:0ee31aa93accc6c32c3d36affe8e3d1e4696034861e3337e12d063235ad2141c",
+				"RepoDigest: rancher/mirrored-jettech-kube-webhook-certgen@sha256:d22f8b5ed10fb78d76a21130605cb18b9fc08918d3b09a70b4bf312ba6c750de",
+				"DiffID: sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b",
+				"DiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:oci/mirrored-jettech-kube-webhook-certgen@sha256:d22f8b5ed10fb78d76a21130605cb18b9fc08918d3b09a70b4bf312ba6c750de?repository_url=index.docker.io%2Francher%2Fmirrored-jettech-kube-webhook-certgen\u0026arch=amd64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"name": "rancher/mirrored-jettech-kube-webhook-certgen@sha256:d22f8b5ed10fb78d76a21130605cb18b9fc08918d3b09a70b4bf312ba6c750de"
+		},
+		{
+			"SPDXID": "SPDXRef-OperatingSystem-72cbe1c407406430",
+			"filesAnalyzed": false,
+			"name": "debian",
+			"versionInfo": "10.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2cc417c6806d2c32",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/sigs.k8s.io/yaml@v1.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "sigs.k8s.io/yaml",
+			"versionInfo": "v1.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2dc2190b20f81526",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.0.0-20191202225959-858c2ad4c8b6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/oauth2",
+			"versionInfo": "v0.0.0-20191202225959-858c2ad4c8b6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3e260552e006e17",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/go-logr/logr@v0.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/go-logr/logr",
+			"versionInfo": "v0.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3f2218fe68b762ff",
+			"attributionTexts": [
+				"LayerDiffID: sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/tzdata@2021a-0+deb10u1?distro=debian-10.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "tzdata",
+			"sourceInfo": "built package from: tzdata 2021a-0+deb10u1",
+			"versionInfo": "2021a-0+deb10u1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4002a9b88428b55c",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/api@v0.19.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/api",
+			"versionInfo": "v0.19.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4e85b8dee8be12f2",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/gogo/protobuf@v1.3.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/gogo/protobuf",
+			"versionInfo": "v1.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4ef9881beb093354",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.24.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "google.golang.org/protobuf",
+			"versionInfo": "v1.24.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5282831ad9cb8fa3",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/client-go@v0.19.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/client-go",
+			"versionInfo": "v0.19.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-605840269cd0b8f7",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/spf13/cobra@v0.0.4",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/spf13/cobra",
+			"versionInfo": "v0.0.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6dc1d5622e62f729",
+			"attributionTexts": [
+				"LayerDiffID: sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/base-files@10.3+deb10u9?distro=debian-10.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "base-files",
+			"sourceInfo": "built package from: base-files 10.3+deb10u9",
+			"versionInfo": "10.3+deb10u9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6e9b96a1ba8db7c2",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/crypto",
+			"versionInfo": "v0.0.0-20200622213623-75b288015ac9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7509eb7b00f35c3c",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "sigs.k8s.io/structured-merge-diff/v4",
+			"versionInfo": "v4.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-793c3699e5a7e19d",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/googleapis/gnostic@v0.4.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/googleapis/gnostic",
+			"versionInfo": "v0.4.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7a6d7b22ac5f0e1c",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.4.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/golang/protobuf",
+			"versionInfo": "v1.4.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-805831e04aacde20",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20200729134348-d5654de09c73",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/utils",
+			"versionInfo": "v0.0.0-20200729134348-d5654de09c73"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-81956a85cbccd88",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20200622214017-ed371f2e16b4",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/sys",
+			"versionInfo": "v0.0.0-20200622214017-ed371f2e16b4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8d1e372dbcfc1c6e",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/json-iterator/go@v1.1.10",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/json-iterator/go",
+			"versionInfo": "v1.1.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-90f0095de6d69cbb",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/modern-go/concurrent",
+			"versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-90f616ce92e1f8dd",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/spf13/pflag",
+			"versionInfo": "v1.0.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-988a273c7bac5dfa",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/modern-go/reflect2@v1.0.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/modern-go/reflect2",
+			"versionInfo": "v1.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9a852bf278c1b9bf",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/imdario/mergo@v0.3.7",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/imdario/mergo",
+			"versionInfo": "v0.3.7"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9cf62e1eb6100e75",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/net@v0.0.0-20200707034311-ab3426394381",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/net",
+			"versionInfo": "v0.0.0-20200707034311-ab3426394381"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a9a7f1649971d500",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "gopkg.in/yaml.v2",
+			"versionInfo": "v2.2.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ad923d72295a8962",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/apimachinery@v0.19.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/apimachinery",
+			"versionInfo": "v0.19.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b3583c13d29a9209",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/davecgh/go-spew",
+			"versionInfo": "v1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bdad3a6a19201c45",
+			"attributionTexts": [
+				"LayerDiffID: sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/netbase@5.6?distro=debian-10.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "netbase",
+			"sourceInfo": "built package from: netbase 5.6",
+			"versionInfo": "5.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c21f2a89f0271a66",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/text@v0.3.3",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/text",
+			"versionInfo": "v0.3.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c94186d24f366485",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/google/gofuzz@v1.1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/google/gofuzz",
+			"versionInfo": "v1.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cb2b12826071bb7b",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/klog/v2",
+			"versionInfo": "v2.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d27bc484fb9ce88a",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/onrik/logrus@v0.3.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/onrik/logrus",
+			"versionInfo": "v0.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e964430426bacfb2",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.4.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/sirupsen/logrus",
+			"versionInfo": "v1.4.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f6e37f9a71a51957",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20191024005414-555d28b269f0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/time",
+			"versionInfo": "v0.0.0-20191024005414-555d28b269f0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f7756fad18c966c7",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b6131acd7d2fadcac8d2547483044a0375503c97a30a0edbb27d992ab535b73f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "gopkg.in/inf.v0",
+			"versionInfo": "v0.9.1"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-ContainerImage-8ad067500ed3cd58",
+			"relationshipType": "DESCRIBE",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-OperatingSystem-72cbe1c407406430",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-8ad067500ed3cd58"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6dc1d5622e62f729",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-72cbe1c407406430"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bdad3a6a19201c45",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-72cbe1c407406430"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3f2218fe68b762ff",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-72cbe1c407406430"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Application-1b667308fab27727",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-8ad067500ed3cd58"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b3583c13d29a9209",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3e260552e006e17",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4e85b8dee8be12f2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7a6d7b22ac5f0e1c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c94186d24f366485",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-793c3699e5a7e19d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9a852bf278c1b9bf",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8d1e372dbcfc1c6e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-90f0095de6d69cbb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-988a273c7bac5dfa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d27bc484fb9ce88a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e964430426bacfb2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-605840269cd0b8f7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-90f616ce92e1f8dd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6e9b96a1ba8db7c2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9cf62e1eb6100e75",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2dc2190b20f81526",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-81956a85cbccd88",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c21f2a89f0271a66",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f6e37f9a71a51957",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4ef9881beb093354",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f7756fad18c966c7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a9a7f1649971d500",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4002a9b88428b55c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ad923d72295a8962",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5282831ad9cb8fa3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cb2b12826071bb7b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-805831e04aacde20",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7509eb7b00f35c3c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2cc417c6806d2c32",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-1b667308fab27727"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

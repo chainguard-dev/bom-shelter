@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-ba7d610f-7984-4b07-926b-eeacd0f1bd54",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-28T13:45:12Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-b1b20dd6-ecaf-49ac-942b-7674bda23775",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b",
+      "name": "sha256:3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/oras@sha256:3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Fbitnami",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-bitnami-oras-3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b-sha256-8610bf7d9c867969a01e5e6ff17c34046558e11c3064ca0975ed8f6f61439de9",
+      "name": "sha256:8610bf7d9c867969a01e5e6ff17c34046558e11c3064ca0975ed8f6f61439de9",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "644e77d3ba32221d43b827710e4be5e2454867cd"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8610bf7d9c867969a01e5e6ff17c34046558e11c3064ca0975ed8f6f61439de9"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "d70ed90db9873cde1b8144b4bb26cf19b54f6683f9725db39915bef071b009896713902b54c73ecd90e5d8b6665ebaffffadc171d8ec09ca5accc355c54f2b3f"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-bitnami-oras-3d01baead7a2faeb865efedb39e3b1caca83dd353092bf6b04de0d71adfcde8b-sha256-8610bf7d9c867969a01e5e6ff17c34046558e11c3064ca0975ed8f6f61439de9"
+    }
+  ]
+}

@@ -1,0 +1,1180 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "rancher/mirrored-ingress-nginx-kube-webhook-certgen@sha256:deac4e784150f494119317b1ed02f4af8167c9305e91504ddef6f70358e7eeea",
+ "documentNamespace": "https://anchore.com/syft/image/rancher/mirrored-ingress-nginx-kube-webhook-certgen@sha256-deac4e784150f494119317b1ed02f4af8167c9305e91504ddef6f70358e7eeea-5044ce96-1120-4630-bb0b-37cfc2759ec9",
+ "creationInfo": {
+  "licenseListVersion": "3.19",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.64.0"
+  ],
+  "created": "2022-12-29T01:18:17Z",
+  "comment": ""
+ },
+ "packages": [
+  {
+   "name": "base-files",
+   "SPDXID": "SPDXRef-Package-deb-base-files-7114c1f7fd988f4b",
+   "versionInfo": "11.1+deb11u4",
+   "originator": "Person: Santiago Vila \u003csanvila@debian.org\u003e",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from DPKG DB: /usr/share/doc/base-files/copyright, /var/lib/dpkg/status.d/base",
+   "licenseConcluded": "NOASSERTION",
+   "licenseDeclared": "NOASSERTION",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:base-files:base-files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:base-files:base_files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:base_files:base-files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:base_files:base_files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:base:base-files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:base:base_files:11.1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:deb/debian/base-files@11.1+deb11u4?arch=amd64&distro=debian-11",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/davecgh/go-spew",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-davecgh-go-spew-d35393c007b67b04",
+   "versionInfo": "v1.1.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "be3f63feed5baa7bc211f24ec1486d94e011aacdfeae41d8635de36164d4f7b7"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/go-logr/logr",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-go-logr-logr-7c8f47840df540aa",
+   "versionInfo": "v0.4.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "2bbfc1d63b7a7c805055de0ec2fd8ca8640295c81fd11dbaebeec2fd08d170b7"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/go-logr/logr@v0.4.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/gogo/protobuf",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-gogo-protobuf-b656e856146ece71",
+   "versionInfo": "v1.3.2",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "3afd5cbdce7c505ddbe578c19d9bfbfa8a5c4dc40565e6d88d6ce2df8bdd9b84"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/gogo/protobuf@v1.3.2",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/golang/protobuf",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-golang-protobuf-a07e860d6100b9d8",
+   "versionInfo": "v1.5.2",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "44e3ca04d15f4203943227c7c8ff8a61bbe98db76814db3e68aec35e58e2d13c"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.2",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/google/go-cmp",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-google-go-cmp-6d7ad160a6a94b43",
+   "versionInfo": "v0.5.5",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "2a1c7bb2fac2a66c71b4706ae63da6a7fc558ec8bc85031f34bbc914096b1a05"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/google/go-cmp@v0.5.5",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/google/gofuzz",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-google-gofuzz-3d6d547c4530401c",
+   "versionInfo": "v1.1.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "1ec6bc986d1d438ea28fc4a5d806090d4bf5a00f7f77a564fb72c6f7d39ed368"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/google/gofuzz@v1.1.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/googleapis/gnostic",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-googleapis-gnostic-2d3ebb116fc3361d",
+   "versionInfo": "v0.5.5",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "f5f1c0b4ad2e0dfa6f79eaaaa3586411925c16f61702208ddd4bad2fc17dc47c"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/googleapis/gnostic@v0.5.5",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/imdario/mergo",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-imdario-mergo-6910480083c9e38d",
+   "versionInfo": "v0.3.5",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "25ba0192c4708a20095af218255a38e807d5f88008299a5fad2cd52a3e364784"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/imdario/mergo@v0.3.5",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/jet/kube-webhook-certgen",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-jet-kube-webhook-certgen-6ab9e8c270db7725",
+   "versionInfo": "(devel)",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:jet:kube-webhook-certgen:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:jet:kube_webhook_certgen:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/jet/kube-webhook-certgen@(devel)",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/json-iterator/go",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-json-iterator-go-d025cb900f740654",
+   "versionInfo": "v1.1.11",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "b955005e11764e8f1c6f0ff7c4dde9c63ea493b4d82acf7c348ad3a8f94c5804"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:json-iterator:go:v1.1.11:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:json_iterator:go:v1.1.11:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:json:go:v1.1.11:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/json-iterator/go@v1.1.11",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/modern-go/concurrent",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-modern-go-concurrent-10892e7efbfc51ce",
+   "versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "4d12da67d703ff0f0f561f779ec3d76b556b43a8e5c0be6837c975e1095c35f8"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/modern-go/reflect2",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-modern-go-reflect2-558b05b340e25863",
+   "versionInfo": "v1.0.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "f5fe35dacfba4666172d665213355580f18aec2d8fa611e3e5126bbdfc7d0162"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/modern-go/reflect2@v1.0.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/onrik/logrus",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-onrik-logrus-7e06396f94087fa6",
+   "versionInfo": "v0.9.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "a13ed5b2d094c560685fb7ecc182bad5f8bd6f34414a944eab9091d9bef0c50a"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:onrik:logrus:v0.9.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/onrik/logrus@v0.9.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/sirupsen/logrus",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-sirupsen-logrus-2822dea47151bc3e",
+   "versionInfo": "v1.8.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "7492ae1e0aa4d4d35096aa00e814e533559ff43387dcd063432bb487df806591"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.8.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/spf13/cobra",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-cobra-e97b50dc23867742",
+   "versionInfo": "v1.1.3",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "c6085b7ea3e4c73c4fdc2fdfde7e4376901b74a2e3e19138056408dfada5e773"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:cobra:v1.1.3:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.1.3",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/spf13/pflag",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-spf13-pflag-914b0ad1765ff5ca",
+   "versionInfo": "v1.0.5",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "8b2f951543823f56bef3216da3f76b836089e6ed3246807b7d9c370cabff2570"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/net",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-net-fd08b101b5b9d502",
+   "versionInfo": "v0.0.0-20211209124913-491a49abca63",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "8a8701dfb4ec745b8de8805167eaf2dfac2b928579d7fb65e6f396aa470f1af6"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.0.0-20211209124913-491a49abca63:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/net@v0.0.0-20211209124913-491a49abca63",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/oauth2",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-oauth2-f89db9fcdf723940",
+   "versionInfo": "v0.0.0-20200107190931-bf48bf16ab8d",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "4f35d25c1a38da6f6041e9e81376fd046884a60e481b62645391643c86b082dc"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/oauth2:v0.0.0-20200107190931-bf48bf16ab8d:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/sys",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-sys-5a9af5f882771105",
+   "versionInfo": "v0.0.0-20210616094352-59db8d763f22",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "46acada57191d6254d5fba6c8c1ddf7fccbbb0d1629d516f931d5cf128c1922a"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20210616094352-59db8d763f22:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/term",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-term-1335ca86f59b9411",
+   "versionInfo": "v0.0.0-20210220032956-6a3ed077a48d",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "499c6f2c1a133f9c873b716b778cf8beb17e0c15fdbcc55a9dc86cc1aebdb681"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/text",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-text-777204c28ab63bbf",
+   "versionInfo": "v0.3.6",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "691631371bfa886425c956999a4e998181036be260d7c0f179b3d2adde9b8353"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.3.6:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/text@v0.3.6",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/time",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-time-afcaa647b6696252",
+   "versionInfo": "v0.0.0-20210723032227-1f47c861a9ac",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "ef3933ec152dc0d145a9ca3027e44882ed8c695fcc6a9111903232fa6c0fca3b"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "google.golang.org/protobuf",
+   "SPDXID": "SPDXRef-Package-go-module-google.golang.org-protobuf-915b3bdd4cc2747",
+   "versionInfo": "v1.26.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "6f1002db14c1b191a26e7d914e7b57d281f9d312ecab2d4ec40f6d4cbde9fe59"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.26.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "gopkg.in/inf.v0",
+   "SPDXID": "SPDXRef-Package-go-module-gopkg.in-inf.v0-62bf1cfc86a4ad0",
+   "versionInfo": "v0.9.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "ef73390a86728b764b30ec83950874df50b1e8df4d0c9d95bdf97be840c08037"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "gopkg.in/yaml.v2",
+   "SPDXID": "SPDXRef-Package-go-module-gopkg.in-yaml.v2-ac6d887ed2afb1be",
+   "versionInfo": "v2.4.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "0fcc60c04098ec262fc7e6369f8b01cfddc99fd251bf1762cb2a3c0937ee29a6"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "gopkg.in/yaml.v3",
+   "SPDXID": "SPDXRef-Package-go-module-gopkg.in-yaml.v3-f55d7234aa4898a0",
+   "versionInfo": "v3.0.0-20210107192922-496545a6307b",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "87ca83a2d6843ee2404eb3265b4e0d0b083bbf6d9a1c7dbcc30a5ab9484af4ea"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "k8s.io/api",
+   "SPDXID": "SPDXRef-Package-go-module-k8s.io-api-783a237ed46f0abe",
+   "versionInfo": "v0.22.6",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "69c8c4e4006dd0aa6c048f500ad2ea69010f485f788ceb44fcba05c5261ab121"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/k8s.io/api@v0.22.6",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "k8s.io/apimachinery",
+   "SPDXID": "SPDXRef-Package-go-module-k8s.io-apimachinery-4fdc4a6d3ed939f6",
+   "versionInfo": "v0.22.6",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "cfbbf13519055f4353a00fbc0f5ee4ccb67f4f8b7e0eac33525aaa6ea45ea51b"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/k8s.io/apimachinery@v0.22.6",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "k8s.io/client-go",
+   "SPDXID": "SPDXRef-Package-go-module-k8s.io-client-go-e7ad7dc4e29ad376",
+   "versionInfo": "v0.22.6",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "ba0017782df5db17865ec9fbcd3473f9bb60b4b0675b7a9886d514a5540bed81"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/k8s.io/client-go@v0.22.6",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "k8s.io/klog/v2",
+   "SPDXID": "SPDXRef-Package-go-module-k8s.io-klog-v2-245bb86ee3ddfaec",
+   "versionInfo": "v2.9.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "0fb1d5fa7d55e7b5de6749bab5d4647e49ed85468cd3a5456d695d38587c9333"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.9.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "k8s.io/kube-aggregator",
+   "SPDXID": "SPDXRef-Package-go-module-k8s.io-kube-aggregator-d900e9aa7d4649ae",
+   "versionInfo": "v0.22.6",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "fe2697cce5a26b676a39090803d789b6499f4ef78930bcf70dc8bd640fd68265"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/k8s.io/kube-aggregator@v0.22.6",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "k8s.io/utils",
+   "SPDXID": "SPDXRef-Package-go-module-k8s.io-utils-81edf26671b8582b",
+   "versionInfo": "v0.0.0-20210819203725-bdf08cb9a70a",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "f1d61fbbf15cf46cf6acd24a07d2104468103a1d9c9664733483cf635c4b6398"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20210819203725-bdf08cb9a70a",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "netbase",
+   "SPDXID": "SPDXRef-Package-deb-netbase-fdbf312837579aa",
+   "versionInfo": "6.3",
+   "originator": "Person: Marco d'Itri \u003cmd@linux.it\u003e",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from DPKG DB: /usr/share/doc/netbase/copyright, /var/lib/dpkg/status.d/netbase",
+   "licenseConcluded": "GPL-2.0-only",
+   "licenseDeclared": "GPL-2.0-only",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:netbase:netbase:6.3:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:deb/debian/netbase@6.3?arch=all&distro=debian-11",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "sigs.k8s.io/structured-merge-diff/v4",
+   "SPDXID": "SPDXRef-Package-go-module-sigs.k8s.io-structured-merge-diff-v4-4ae11cf81426d1e7",
+   "versionInfo": "v4.2.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "6ca0aa13d1af439b625479f9adf9f5afec9aa3768b40468bce49260247fe03a6"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:structured-merge-diff:v4:v4.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:structured_merge_diff:v4:v4.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:structured-merge:v4:v4.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:structured_merge:v4:v4.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:structured:v4:v4.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "sigs.k8s.io/yaml",
+   "SPDXID": "SPDXRef-Package-go-module-sigs.k8s.io-yaml-6a77940e50cac049",
+   "versionInfo": "v1.2.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "92bfcc09e1562564f0c9a1e847d73c1231fd3ae98e9a817d60689977b9459bf4"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /kube-webhook-certgen",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/sigs.k8s.io/yaml@v1.2.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "tzdata",
+   "SPDXID": "SPDXRef-Package-deb-tzdata-a9584c319b263a7a",
+   "versionInfo": "2021a-1+deb11u4",
+   "originator": "Person: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from DPKG DB: /usr/share/doc/tzdata/copyright, /var/lib/dpkg/status.d/tzdata",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:tzdata:tzdata:2021a-1\\+deb11u4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:deb/debian/tzdata@2021a-1+deb11u4?arch=all&distro=debian-11",
+     "comment": ""
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relatedSpdxElement": "SPDXRef-DOCUMENT",
+   "relationshipType": "DESCRIBES"
+  }
+ ]
+}
