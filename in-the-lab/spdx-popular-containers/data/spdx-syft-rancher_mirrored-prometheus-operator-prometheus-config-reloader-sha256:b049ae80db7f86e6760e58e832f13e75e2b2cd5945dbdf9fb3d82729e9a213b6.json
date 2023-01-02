@@ -1,0 +1,715 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "dataLicense": "CC0-1.0",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "rancher/mirrored-prometheus-operator-prometheus-config-reloader@sha256:b049ae80db7f86e6760e58e832f13e75e2b2cd5945dbdf9fb3d82729e9a213b6",
+ "documentNamespace": "https://anchore.com/syft/image/rancher/mirrored-prometheus-operator-prometheus-config-reloader@sha256-b049ae80db7f86e6760e58e832f13e75e2b2cd5945dbdf9fb3d82729e9a213b6-7ad2be8a-afbf-48dd-a677-fde04c1e85d3",
+ "creationInfo": {
+  "licenseListVersion": "3.19",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.64.0"
+  ],
+  "created": "2022-12-29T19:56:00Z",
+  "comment": ""
+ },
+ "packages": [
+  {
+   "name": "busybox",
+   "SPDXID": "SPDXRef-Package-binary-busybox-e0e0812ac3e454c9",
+   "versionInfo": "1.34.1",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from the following paths: /bin/[",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:busybox:busybox:1.34.1:*:*:*:*:*:*:*",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/alecthomas/template",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-alecthomas-template-3dbebf49080c5cf7",
+   "versionInfo": "v0.0.0-20190718012654-fb15b899a751",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "258a7b21b42369fa01fad040de03321d81eba4eb4db8388afee079b97c6ae703"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:alecthomas:template:v0.0.0-20190718012654-fb15b899a751:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/alecthomas/units",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-alecthomas-units-ec30ddaeae61f739",
+   "versionInfo": "v0.0.0-20211218093645-b94a6e3cc137",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "b3a8191529566266ea02e46355388d361bcd45f6365b1a7d9e17f27a5e2b9257"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:alecthomas:units:v0.0.0-20211218093645-b94a6e3cc137:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/alecthomas/units@v0.0.0-20211218093645-b94a6e3cc137",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/beorn7/perks",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-beorn7-perks-a1a4d4e238d8b78b",
+   "versionInfo": "v1.0.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "5656ca2a735f57c6c9cdeaa86b870e2aa3ba6d8af75a0299c4ef19d7afa1b0e3"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/cespare/xxhash/v2",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-cespare-xxhash-v2-189c88cd09b3215d",
+   "versionInfo": "v2.1.2",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "6115e129f4c36aebb86a3320d533e014ee639e50b61c26e62d731c4c6e5c6d81"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:cespare:xxhash\\/v2:v2.1.2:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.2",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/fsnotify/fsnotify",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-fsnotify-fsnotify-2fc965d7000081b0",
+   "versionInfo": "v1.5.4",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "8d16c6708c3a3f631ea9dc2ea341f5a7a2552db2f90c72802a56277733305592"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:fsnotify:fsnotify:v1.5.4:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/fsnotify/fsnotify@v1.5.4",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/go-kit/log",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-go-kit-log-4b6dc9139e8c56a2",
+   "versionInfo": "v0.2.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "311571d3fce1bddb1e5be1b36ba37dad5cd4fc857369e135485238ada0219815"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go-kit:log:v0.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go_kit:log:v0.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go:log:v0.2.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/go-kit/log@v0.2.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/go-logfmt/logfmt",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-go-logfmt-logfmt-4825305531d773cf",
+   "versionInfo": "v0.5.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "a2da72e69a810816759e0f5143474fbb83cdedb6bbe58fda03e529a300f23550"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go-logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go_logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:go:logfmt:v0.5.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/go-logfmt/logfmt@v0.5.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/golang/protobuf",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-golang-protobuf-67ed97e50cb6620a",
+   "versionInfo": "v1.5.2",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "44e3ca04d15f4203943227c7c8ff8a61bbe98db76814db3e68aec35e58e2d13c"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.2",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/matttproud/golang_protobuf_extensions",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-matttproud-golang-protobuf-extensions-33211f12a9aefc53",
+   "versionInfo": "v1.0.2-0.20181231171920-c182affec369",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "2345d6f7e7b55d60f175c127895e2b40020e3d4183abaec94828910a018264b2"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/oklog/run",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-oklog-run-416e881f78a67156",
+   "versionInfo": "v1.1.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "1847a767570ad3eab4fb0b097b0f6a520fc3c83f24dc9cd8b19022e60622da60"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:oklog:run:v1.1.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/oklog/run@v1.1.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/pkg/errors",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-pkg-errors-2a1f16f55e77ea05",
+   "versionInfo": "v0.9.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "14404bc75cd2db5e28c298f2eeab017a2c5b51192e850030acae54c0b193c2de"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/prometheus-operator/prometheus-operator",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-prometheus-operator-prometheus-operator-67153c2deb646916",
+   "versionInfo": "(devel)",
+   "downloadLocation": "NOASSERTION",
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus-operator:prometheus-operator:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus-operator:prometheus_operator:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus_operator:prometheus-operator:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus_operator:prometheus_operator:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:prometheus-operator:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:prometheus_operator:\\(devel\\):*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/prometheus-operator/prometheus-operator@(devel)",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/prometheus/client_golang",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-prometheus-client-golang-c437109a1621bd70",
+   "versionInfo": "v1.13.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "6fbd5051f7a8e4cf20ab6f9ebc97533df66160c014d2e28f9323c9ed33ec9685"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:client-golang:v1.13.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:client_golang:v1.13.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.13.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/prometheus/client_model",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-prometheus-client-model-762a0eb27da7002d",
+   "versionInfo": "v0.2.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "baae61d1df86bb18972c92cd001320a76a945833e22ef802cf3d9d511fbf5bf3"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/prometheus/client_model@v0.2.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/prometheus/common",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-prometheus-common-12bfcecfc4515f15",
+   "versionInfo": "v0.37.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "71c05b1c2808893f6e4a8158d2f5fc1f7cec351e5e2edd7bfd140b52f9fca571"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:common:v0.37.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.37.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/prometheus/procfs",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-prometheus-procfs-8d20620eab34d7b0",
+   "versionInfo": "v0.8.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "383abc64511a61e09a64e26565974903601b411f7c7521d2335296fd8a2ee66a"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:prometheus:procfs:v0.8.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/prometheus/procfs@v0.8.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "github.com/thanos-io/thanos",
+   "SPDXID": "SPDXRef-Package-go-module-github.com-thanos-io-thanos-2f253883ade5a125",
+   "versionInfo": "v0.28.0",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "8342c1c8113400d037d3fb7f6b60bf99c79884edd5b483d0168c42b2aad833d2"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:thanos-io:thanos:v0.28.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:thanos_io:thanos:v0.28.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:thanos:thanos:v0.28.0:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/github.com/thanos-io/thanos@v0.28.0",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "golang.org/x/sys",
+   "SPDXID": "SPDXRef-Package-go-module-golang.org-x-sys-4e375a56f910c9aa",
+   "versionInfo": "v0.0.0-20220829200755-d48e67d00261",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "bfa858a1247d4f9a1eb7ea4c5f051691b895ab1ffade69478de7eb1e6c707de6"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20220829200755-d48e67d00261:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20220829200755-d48e67d00261",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "google.golang.org/protobuf",
+   "SPDXID": "SPDXRef-Package-go-module-google.golang.org-protobuf-fa34b0f7a0a18e8b",
+   "versionInfo": "v1.28.1",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "77435fc1180fb67a3907559ae8bd83006f8a8afaa476eb4c7f552174dc75ef9c"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceType": "cpe23Type",
+     "referenceLocator": "cpe:2.3:a:google:protobuf:v1.28.1:*:*:*:*:*:*:*",
+     "comment": ""
+    },
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.28.1",
+     "comment": ""
+    }
+   ]
+  },
+  {
+   "name": "gopkg.in/alecthomas/kingpin.v2",
+   "SPDXID": "SPDXRef-Package-go-module-gopkg.in-alecthomas-kingpin.v2-b75ed29c639f47ee",
+   "versionInfo": "v2.2.6",
+   "downloadLocation": "NOASSERTION",
+   "checksums": [
+    {
+     "algorithm": "SHA256",
+     "checksumValue": "8cc173e8c7cb3f4ff87d4c9995ef35ad7528c4e0458b5f555052950ce41fa337"
+    }
+   ],
+   "sourceInfo": "acquired package info from go module information: /bin/prometheus-config-reloader",
+   "licenseConcluded": "NONE",
+   "licenseDeclared": "NONE",
+   "copyrightText": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6",
+     "comment": ""
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-DOCUMENT",
+   "relatedSpdxElement": "SPDXRef-DOCUMENT",
+   "relationshipType": "DESCRIBES"
+  }
+ ]
+}

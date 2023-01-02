@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-101ef4cb-d5be-4b44-bf90-9c4cf44d3e84",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-29T20:01:52Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-1fc09311-4b53-4eca-b056-05bf7eaad563",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-rancher-pause-amd64-fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d-sha256-7675586df687972b960134ddaf042c570c895bf1fbdf9fc0ce0bf09c1e1c2811",
+      "name": "sha256:7675586df687972b960134ddaf042c570c895bf1fbdf9fc0ce0bf09c1e1c2811",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "35667c0af8a6b4f1fb6cfd65df70fb9b80e26b09"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7675586df687972b960134ddaf042c570c895bf1fbdf9fc0ce0bf09c1e1c2811"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1fa4a61825faa4638a13961842eed9b4962206efe95a6bcac4c19abc8d0a30bdf55906c9b38a54c36b35f29f0f53d87eaceeefab3214745688aa737daa017504"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-sha256-fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d",
+      "name": "sha256:fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/pause-amd64@sha256:fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Francher",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-rancher-pause-amd64-fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d-sha256-7675586df687972b960134ddaf042c570c895bf1fbdf9fc0ce0bf09c1e1c2811"
+    }
+  ]
+}

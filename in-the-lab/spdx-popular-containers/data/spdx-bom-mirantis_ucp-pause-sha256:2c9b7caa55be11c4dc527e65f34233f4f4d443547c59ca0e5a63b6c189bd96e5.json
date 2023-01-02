@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-43fe6220-54e2-4e36-a55b-dcdb50f4e78a",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-28T04:19:12Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-de820997-0b50-49ae-aff0-4cce44771e45",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5",
+      "name": "sha256:2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/ucp-pause@sha256:2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5?arch=amd64\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Fmirantis",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-mirantis-ucp-pause-2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5-sha256-7582c2cc65ef30105b84c1c6812f71c8012663c6352b01fe2f483238313ab0ed",
+      "name": "sha256:7582c2cc65ef30105b84c1c6812f71c8012663c6352b01fe2f483238313ab0ed",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "ae9bb2c3f9f83cffe6768dd7b1476711bc7df23a26db1bc93b8fca4f2e00e6f41031c7743f18289ddb0cfb2d41058569304db826992851d43258b6adfb0b0026"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "49a75fb9177fd2acbd8c54e70efc96c66ab94ae2"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7582c2cc65ef30105b84c1c6812f71c8012663c6352b01fe2f483238313ab0ed"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-mirantis-ucp-pause-2c9b7caa55be11c4dc527e65f34233f4f4d443547c59ca0e5a63b6c189bd96e5-sha256-7582c2cc65ef30105b84c1c6812f71c8012663c6352b01fe2f483238313ab0ed"
+    }
+  ]
+}

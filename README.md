@@ -6,9 +6,6 @@ You need SBOMs? `bom-shelter` has SBOMs.
 
 The `in-the-wild` folder contains both SPDX and CycloneDX SBOMs found "in the wild," that is, associated with open source software projects. To the best of our ability, these SBOMs are meant to represent real SBOMs, not ones simply created for example purposes. Additionally, this `in-the-wild` dataset represents a diverse sample.
 
-**Potential Long Term Goal**
+The `in-the-lab` folder currently contains SPDX SBOMs created "in the lab," that is, generated via an SBOM-generating tool for the purpose of creating a large SBOM dataset. The `spdx-popular-containers` sub-folder contains over 3,000 SBOMs created with four different tools (`syft`, `trivy`, `bom`, and `tern`) from a list of 1,000 popular containers.
 
-- Consider building a "synthetic" SBOM dataset using a wide range of tools applied to a wide range of artifacts.
-
-
-Input, ideas, issues, and PR's welcome.
+Input, ideas, issues, collaboration and PR's welcome.

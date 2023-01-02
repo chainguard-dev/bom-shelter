@@ -1,0 +1,78 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "SBOM-SPDX-a8710eac-e675-4180-a73d-40209bf7c293",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2022-12-29T22:07:36Z",
+    "creators": [
+      "Tool: sigs.k8s.io/bom/pkg/spdx"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/k8s-releng-bom-9afd14aa-2330-471b-84ae-322921e9adb3",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-sha256-37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c",
+      "name": "sha256:37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/library-busybox@sha256:37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c?arch=s390x\u0026mediaType=application%2Fvnd.docker.distribution.manifest.v2+json\u0026os=linux\u0026repository_url=index.docker.io%2Francher",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-index.docker.io-rancher-library-busybox-37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c-sha256-96e4eceb383057c2f995bb27de59168bf82de7d21d270282a35921948777d6a0",
+      "name": "sha256:96e4eceb383057c2f995bb27de59168bf82de7d21d270282a35921948777d6a0",
+      "versionInfo": "",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "773e410ad3d326e457d5ee7379ed02d88cb61cf4"
+        },
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "96e4eceb383057c2f995bb27de59168bf82de7d21d270282a35921948777d6a0"
+        },
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "1a2a8e69e7cdbb1fdbbea653fbf3495b4b5afc1802eb839c426d78f6baba89415327f4b20ac4c35c677fa63a9b18d282803230764919fd3b8ec5ba75ff3a5945"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-index.docker.io-rancher-library-busybox-37b77d92a7ca131dd379ab9a637b814dd99dc0cb560ccf59b566bd6448564b7c-sha256-96e4eceb383057c2f995bb27de59168bf82de7d21d270282a35921948777d6a0"
+    }
+  ]
+}

@@ -1,0 +1,1400 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2022-12-27T16:52:48.871787Z",
+		"creators": [
+			"Tool: trivy",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentNamespace": "http://aquasecurity.github.io/trivy/container_image/vmware/redis-photon@sha256:20c5cd6cc14764339ac95d0b9926467ab4f7e4c7638a1a9069b912a1a3271091-f157479d-4a5a-4a9b-9b4e-aa29cd4a93e8",
+	"name": "vmware/redis-photon@sha256:20c5cd6cc14764339ac95d0b9926467ab4f7e4c7638a1a9069b912a1a3271091",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-ContainerImage-a2452da96540bf7",
+			"attributionTexts": [
+				"SchemaVersion: 2",
+				"ImageID: sha256:e8ec8e42d3cf0f72912c7d46fa5244c32b8eec7700fa240331e1f81c1a42993e",
+				"RepoDigest: vmware/redis-photon@sha256:20c5cd6cc14764339ac95d0b9926467ab4f7e4c7638a1a9069b912a1a3271091",
+				"DiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518",
+				"DiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742",
+				"DiffID: sha256:24d9672d5b26ee7c1f268ef2ad90c4101ada77a4179a25c5863b0b356b6c652c",
+				"DiffID: sha256:fe4d52841f3d3d6497d47803f792e7f5d7240fc16926c04271f7ef5697dbcab0",
+				"DiffID: sha256:bffe30bd19419805598393a831c0188e924b0db21594fe9591f8de3607deed4f"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:oci/redis-photon@sha256:20c5cd6cc14764339ac95d0b9926467ab4f7e4c7638a1a9069b912a1a3271091?repository_url=index.docker.io%2Fvmware%2Fredis-photon\u0026arch=amd64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"name": "vmware/redis-photon@sha256:20c5cd6cc14764339ac95d0b9926467ab4f7e4c7638a1a9069b912a1a3271091"
+		},
+		{
+			"SPDXID": "SPDXRef-OperatingSystem-6f0736436683a110",
+			"filesAnalyzed": false,
+			"name": "photon",
+			"versionInfo": "1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1321de0d5a4ba722",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/db@6.1.26-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Sleepycat License",
+			"licenseDeclared": "Sleepycat License",
+			"name": "db",
+			"sourceInfo": "built package from: db 6.1.26-2.ph1",
+			"versionInfo": "6.1.26"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1d0b27b3084a87bd",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/cracklib@2.9.6-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL",
+			"licenseDeclared": "GPL",
+			"name": "cracklib",
+			"sourceInfo": "built package from: cracklib 2.9.6-3.ph1",
+			"versionInfo": "2.9.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-20d886ec7cf98fe6",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/filesystem@1.1-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3",
+			"licenseDeclared": "GPLv3",
+			"name": "filesystem",
+			"sourceInfo": "built package from: filesystem 1.1-3.ph1",
+			"versionInfo": "1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-27ba5e8bb2f2c3e6",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libgcc@5.3.0-5.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libgcc",
+			"sourceInfo": "built package from: gcc 5.3.0-5.ph1",
+			"versionInfo": "5.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2fcdffe51d5bef19",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/which@2.21-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "which",
+			"sourceInfo": "built package from: which 2.21-2.ph1",
+			"versionInfo": "2.21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3458e9e5cfb7b0aa",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/redis@4.0.10-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "redis",
+			"sourceInfo": "built package from: redis 4.0.10-1.ph1",
+			"versionInfo": "4.0.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-36bb34bd2fff77a4",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/sqlite-autoconf@3.22.0-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "sqlite-autoconf",
+			"sourceInfo": "built package from: sqlite-autoconf 3.22.0-3.ph1",
+			"versionInfo": "3.22.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3ab55ba535eca4c3",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/popt@1.16-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "popt",
+			"sourceInfo": "built package from: popt 1.16-2.ph1",
+			"versionInfo": "1.16"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3fa34793a6df99c1",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/systemd@228-46.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and GPLv2+ and MIT",
+			"licenseDeclared": "LGPLv2+ and GPLv2+ and MIT",
+			"name": "systemd",
+			"sourceInfo": "built package from: systemd 228-46.ph1",
+			"versionInfo": "228"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-41f56a05cc7ece12",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/vim@7.4-9.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Charityware",
+			"licenseDeclared": "Charityware",
+			"name": "vim",
+			"sourceInfo": "built package from: vim 7.4-9.ph1",
+			"versionInfo": "7.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4507c57157d79008",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libffi@3.2.1-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "libffi",
+			"sourceInfo": "built package from: libffi 3.2.1-2.ph1",
+			"versionInfo": "3.2.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-46276abcf2b59a7a",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/findutils@4.6.0-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "findutils",
+			"sourceInfo": "built package from: findutils 4.6.0-2.ph1",
+			"versionInfo": "4.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-47fe33bc21e2f61",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libssh2@1.8.0-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "libssh2",
+			"sourceInfo": "built package from: libssh2 1.8.0-1.ph1",
+			"versionInfo": "1.8.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4da48489aec95727",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/cracklib-dicts@2.9.6-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL",
+			"licenseDeclared": "GPL",
+			"name": "cracklib-dicts",
+			"sourceInfo": "built package from: cracklib 2.9.6-3.ph1",
+			"versionInfo": "2.9.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4f92f0522940960d",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/curl@7.59.0-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "curl",
+			"sourceInfo": "built package from: curl 7.59.0-2.ph1",
+			"versionInfo": "7.59.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-50c6affd6256678",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/util-linux@2.27.1-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "util-linux",
+			"sourceInfo": "built package from: util-linux 2.27.1-3.ph1",
+			"versionInfo": "2.27.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-530e50a2c741d108",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libsolv@0.6.19-4.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "libsolv",
+			"sourceInfo": "built package from: libsolv 0.6.19-4.ph1",
+			"versionInfo": "0.6.19"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-534ec76a74d56ef8",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/file@5.24-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "file",
+			"sourceInfo": "built package from: file 5.24-2.ph1",
+			"versionInfo": "5.24"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-53629602c5657c85",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/tdnf@1.1.0-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "VMware",
+			"licenseDeclared": "VMware",
+			"name": "tdnf",
+			"sourceInfo": "built package from: tdnf 1.1.0-3.ph1",
+			"versionInfo": "1.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-580520ea15680ded",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/glibc@2.22-21.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "glibc",
+			"sourceInfo": "built package from: glibc 2.22-21.ph1",
+			"versionInfo": "2.22"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5a97cf040fbff359",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/zlib@1.2.8-5.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "zlib",
+			"licenseDeclared": "zlib",
+			"name": "zlib",
+			"sourceInfo": "built package from: zlib 1.2.8-5.ph1",
+			"versionInfo": "1.2.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5d37630ce626cc7d",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/elfutils-libelf@0.169-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ or LGPLv3+",
+			"licenseDeclared": "GPLv2+ or LGPLv3+",
+			"name": "elfutils-libelf",
+			"sourceInfo": "built package from: elfutils 0.169-1.ph1",
+			"versionInfo": "0.169"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-60c1dc27cdf03475",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/Linux-PAM@1.2.1-4.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and GPLv2+",
+			"licenseDeclared": "BSD and GPLv2+",
+			"name": "Linux-PAM",
+			"sourceInfo": "built package from: Linux-PAM 1.2.1-4.ph1",
+			"versionInfo": "1.2.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-67e77eca9d8727e",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/shadow@4.2.1-12.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "shadow",
+			"sourceInfo": "built package from: shadow 4.2.1-12.ph1",
+			"versionInfo": "4.2.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6c361c8f6c503b08",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/tcsh@6.19.00-7.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "tcsh",
+			"sourceInfo": "built package from: tcsh 6.19.00-7.ph1",
+			"versionInfo": "6.19.00"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6ef7bc2a62b2009",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/sudo@1.8.20p2-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "ISC",
+			"licenseDeclared": "ISC",
+			"name": "sudo",
+			"sourceInfo": "built package from: sudo 1.8.20p2-1.ph1",
+			"versionInfo": "1.8.20p2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-719cf98c0f4a5890",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/bzip2@1.0.6-6.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "bzip2",
+			"sourceInfo": "built package from: bzip2 1.0.6-6.ph1",
+			"versionInfo": "1.0.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-72c103846d741cfa",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libassuan@2.4.3-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "libassuan",
+			"sourceInfo": "built package from: libassuan 2.4.3-1.ph1",
+			"versionInfo": "2.4.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-777726474a0d7fde",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libcap@2.25-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libcap",
+			"sourceInfo": "built package from: libcap 2.25-2.ph1",
+			"versionInfo": "2.25"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7b2afaf1588d6d85",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/bash@4.3.48-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3",
+			"licenseDeclared": "GPLv3",
+			"name": "bash",
+			"sourceInfo": "built package from: bash 4.3.48-2.ph1",
+			"versionInfo": "4.3.48"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8251502ac1b58f30",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/hawkey@2014.1-5.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "hawkey",
+			"sourceInfo": "built package from: hawkey 2014.1-5.ph1",
+			"versionInfo": "2014.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8729ad1baf1e9edd",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/ncurses@6.0-8.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "ncurses",
+			"sourceInfo": "built package from: ncurses 6.0-8.ph1",
+			"versionInfo": "6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-89e2646ab9d257f9",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/librepo@1.7.17-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "librepo",
+			"sourceInfo": "built package from: librepo 1.7.17-3.ph1",
+			"versionInfo": "1.7.17"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8df57d3b547be773",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/expat@2.2.4-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "expat",
+			"sourceInfo": "built package from: expat 2.2.4-1.ph1",
+			"versionInfo": "2.2.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-95cb0fe3a2904b20",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/nspr@4.15-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MPLv2.0",
+			"licenseDeclared": "MPLv2.0",
+			"name": "nspr",
+			"sourceInfo": "built package from: nspr 4.15-1.ph1",
+			"versionInfo": "4.15"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a35f450e02e6300a",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libgpg-error@1.27-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libgpg-error",
+			"sourceInfo": "built package from: libgpg-error 1.27-1.ph1",
+			"versionInfo": "1.27"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ab1f68346c7488de",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/lua@5.3.2-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "lua",
+			"sourceInfo": "built package from: lua 5.3.2-2.ph1",
+			"versionInfo": "5.3.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b6277e4536773e73",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/photon-repos@1.0-4.ph1?arch=noarch\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Apache License",
+			"licenseDeclared": "Apache License",
+			"name": "photon-repos",
+			"sourceInfo": "built package from: photon-repos 1.0-4.ph1",
+			"versionInfo": "1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b8339f25a6a922af",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/pcre@8.41-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "pcre",
+			"sourceInfo": "built package from: pcre 8.41-1.ph1",
+			"versionInfo": "8.41"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b8c6bfd483453a17",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/xz@5.2.2-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and GPLv3+ and LGPLv2+",
+			"licenseDeclared": "GPLv2+ and GPLv3+ and LGPLv2+",
+			"name": "xz",
+			"sourceInfo": "built package from: xz 5.2.2-2.ph1",
+			"versionInfo": "5.2.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-baedfccaaeef1fa4",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/grep@2.21-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "grep",
+			"sourceInfo": "built package from: grep 2.21-2.ph1",
+			"versionInfo": "2.21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bce3c085f727727d",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/coreutils@8.25-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3",
+			"licenseDeclared": "GPLv3",
+			"name": "coreutils",
+			"sourceInfo": "built package from: coreutils 8.25-2.ph1",
+			"versionInfo": "8.25"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bd97afde00fb24e6",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/openssl@1.0.2o-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "OpenSSL",
+			"licenseDeclared": "OpenSSL",
+			"name": "openssl",
+			"sourceInfo": "built package from: openssl 1.0.2o-2.ph1",
+			"versionInfo": "1.0.2o"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cd3d7db302dd5606",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/pkg-config@0.28-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "pkg-config",
+			"sourceInfo": "built package from: pkg-config 0.28-2.ph1",
+			"versionInfo": "0.28"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cf337b901f36c59",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/gpgme@1.6.0-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "gpgme",
+			"sourceInfo": "built package from: gpgme 1.6.0-2.ph1",
+			"versionInfo": "1.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cf8ce20564466a56",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/attr@2.4.47-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "attr",
+			"sourceInfo": "built package from: attr 2.4.47-3.ph1",
+			"versionInfo": "2.4.47"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d14b553e0206eca5",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/photon-release@1.0-6.ph1?arch=noarch\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Apache License",
+			"licenseDeclared": "Apache License",
+			"name": "photon-release",
+			"sourceInfo": "built package from: photon-release 1.0-6.ph1",
+			"versionInfo": "1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d32d7da85e4c1a33",
+			"attributionTexts": [
+				"LayerDiffID: sha256:1b5a1160526a21eb3f04a07da09f3050cd68fdc7defb96e35009475fb66e0742"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/kmod@21-4.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "kmod",
+			"sourceInfo": "built package from: kmod 21-4.ph1",
+			"versionInfo": "21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d44d7cfe897e2a71",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/glib@2.47.6-2.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "glib",
+			"sourceInfo": "built package from: glib 2.47.6-2.ph1",
+			"versionInfo": "2.47.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d5f65cd275c38613",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/nss@3.31.1-1.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MPLv2.0",
+			"licenseDeclared": "MPLv2.0",
+			"name": "nss",
+			"sourceInfo": "built package from: nss 3.31.1-1.ph1",
+			"versionInfo": "3.31.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d6e6e4cc4c6df740",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/readline@6.3-5.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "readline",
+			"sourceInfo": "built package from: readline 6.3-5.ph1",
+			"versionInfo": "6.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d7c5b7ce3c2acc82",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/libstdc++@5.3.0-5.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libstdc++",
+			"sourceInfo": "built package from: gcc 5.3.0-5.ph1",
+			"versionInfo": "5.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e64ebab92ed32c0",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/gmp@6.0.0a-3.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+",
+			"licenseDeclared": "LGPLv3+",
+			"name": "gmp",
+			"sourceInfo": "built package from: gmp 6.0.0a-3.ph1",
+			"versionInfo": "6.0.0a"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f4bf1c2269525ed9",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/ca-certificates@20160109-5.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Custom",
+			"licenseDeclared": "Custom",
+			"name": "ca-certificates",
+			"sourceInfo": "built package from: ca-certificates 20160109-5.ph1",
+			"versionInfo": "20160109"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f785a4c010c05a72",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/gpg-pubkey@66fd4949-4803fe57?arch=None\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "pubkey",
+			"licenseDeclared": "pubkey",
+			"name": "gpg-pubkey",
+			"sourceInfo": "built package from:  ",
+			"versionInfo": "66fd4949"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fc97dee3afd688f8",
+			"attributionTexts": [
+				"LayerDiffID: sha256:b58bb92314e01b59b4c308dc28ed69b8dfb2e2322688dd60d786ba90cae98518"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/photon/rpm@4.13.0.1-4.ph1?arch=x86_64\u0026distro=photon-1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "rpm",
+			"sourceInfo": "built package from: rpm 4.13.0.1-4.ph1",
+			"versionInfo": "4.13.0.1"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-ContainerImage-a2452da96540bf7",
+			"relationshipType": "DESCRIBE",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-OperatingSystem-6f0736436683a110",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-a2452da96540bf7"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-60c1dc27cdf03475",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cf8ce20564466a56",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7b2afaf1588d6d85",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-719cf98c0f4a5890",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f4bf1c2269525ed9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bce3c085f727727d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1d0b27b3084a87bd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4da48489aec95727",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4f92f0522940960d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1321de0d5a4ba722",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5d37630ce626cc7d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8df57d3b547be773",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-534ec76a74d56ef8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-20d886ec7cf98fe6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-46276abcf2b59a7a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d44d7cfe897e2a71",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-580520ea15680ded",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e64ebab92ed32c0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f785a4c010c05a72",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cf337b901f36c59",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-baedfccaaeef1fa4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8251502ac1b58f30",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d32d7da85e4c1a33",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-72c103846d741cfa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-777726474a0d7fde",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4507c57157d79008",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-27ba5e8bb2f2c3e6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a35f450e02e6300a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-89e2646ab9d257f9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-530e50a2c741d108",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-47fe33bc21e2f61",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d7c5b7ce3c2acc82",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ab1f68346c7488de",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8729ad1baf1e9edd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-95cb0fe3a2904b20",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d5f65cd275c38613",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bd97afde00fb24e6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b8339f25a6a922af",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d14b553e0206eca5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b6277e4536773e73",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cd3d7db302dd5606",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3ab55ba535eca4c3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d6e6e4cc4c6df740",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3458e9e5cfb7b0aa",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fc97dee3afd688f8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-67e77eca9d8727e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-36bb34bd2fff77a4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6ef7bc2a62b2009",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3fa34793a6df99c1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6c361c8f6c503b08",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-53629602c5657c85",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-50c6affd6256678",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-41f56a05cc7ece12",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2fcdffe51d5bef19",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b8c6bfd483453a17",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5a97cf040fbff359",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-6f0736436683a110"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

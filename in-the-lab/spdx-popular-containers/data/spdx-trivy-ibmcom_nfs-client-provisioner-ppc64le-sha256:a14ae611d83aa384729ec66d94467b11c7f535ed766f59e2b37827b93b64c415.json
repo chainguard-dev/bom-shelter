@@ -1,0 +1,4698 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2022-12-29T17:08:36.831668Z",
+		"creators": [
+			"Tool: trivy",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentNamespace": "http://aquasecurity.github.io/trivy/container_image/ibmcom/nfs-client-provisioner-ppc64le@sha256:a14ae611d83aa384729ec66d94467b11c7f535ed766f59e2b37827b93b64c415-4e47aab3-d88b-4005-9c7a-3050f293ec63",
+	"name": "ibmcom/nfs-client-provisioner-ppc64le@sha256:a14ae611d83aa384729ec66d94467b11c7f535ed766f59e2b37827b93b64c415",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-Application-6e47d1d94b63575f",
+			"filesAnalyzed": false,
+			"name": "gobinary",
+			"sourceInfo": "nfs-subdir-external-provisioner"
+		},
+		{
+			"SPDXID": "SPDXRef-ContainerImage-f765a6fdac1e7c41",
+			"attributionTexts": [
+				"SchemaVersion: 2",
+				"ImageID: sha256:12f3fe866354745ed818adcb62e48bf78cdd0f223fc72e61533ef4b3c2c0d372",
+				"RepoDigest: ibmcom/nfs-client-provisioner-ppc64le@sha256:a14ae611d83aa384729ec66d94467b11c7f535ed766f59e2b37827b93b64c415",
+				"DiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0",
+				"DiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:oci/nfs-client-provisioner-ppc64le@sha256:a14ae611d83aa384729ec66d94467b11c7f535ed766f59e2b37827b93b64c415?repository_url=index.docker.io%2Fibmcom%2Fnfs-client-provisioner-ppc64le\u0026arch=ppc64le",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"name": "ibmcom/nfs-client-provisioner-ppc64le@sha256:a14ae611d83aa384729ec66d94467b11c7f535ed766f59e2b37827b93b64c415"
+		},
+		{
+			"SPDXID": "SPDXRef-OperatingSystem-601de241f1581730",
+			"filesAnalyzed": false,
+			"name": "fedora",
+			"versionInfo": "31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-115a58c49b1d91e2",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/audit-libs@3.0-0.15.20191104git1c2f876.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "audit-libs",
+			"sourceInfo": "built package from: audit 3.0-0.15.20191104git1c2f876.fc31",
+			"versionInfo": "3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-145a75fc51c01619",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/google/go-cmp@v0.4.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/google/go-cmp",
+			"versionInfo": "v0.4.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-14b7f305ea8e69f2",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/tss2@1331-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "tss2",
+			"sourceInfo": "built package from: tss2 1331-2.fc31",
+			"versionInfo": "1331"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-15c21400c0cfbc7f",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/cyrus-sasl-lib@2.1.27-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD with advertising",
+			"licenseDeclared": "BSD with advertising",
+			"name": "cyrus-sasl-lib",
+			"sourceInfo": "built package from: cyrus-sasl 2.1.27-3.fc31",
+			"versionInfo": "2.1.27"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-161000b4f57b2a0b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gdbm-libs@1:1.18.1-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "gdbm-libs",
+			"sourceInfo": "built package from: gdbm 1:1.18.1-1.fc31",
+			"versionInfo": "1.18.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-184a07fc975431ce",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/json-c@0.13.1-12.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "json-c",
+			"sourceInfo": "built package from: json-c 0.13.1-12.fc31",
+			"versionInfo": "0.13.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1a6dd1658df4dd1e",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.2.8",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "gopkg.in/yaml.v2",
+			"versionInfo": "v2.2.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1ad1b8268e847360",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libtasn1@4.14-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and LGPLv2+",
+			"licenseDeclared": "GPLv3+ and LGPLv2+",
+			"name": "libtasn1",
+			"sourceInfo": "built package from: libtasn1 4.14-2.fc31",
+			"versionInfo": "4.14"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1cf2faec98327ddf",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/davecgh/go-spew",
+			"versionInfo": "v1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1d32376d0f025982",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libmodulemd@2.9.3-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libmodulemd",
+			"sourceInfo": "built package from: libmodulemd 2.9.3-1.fc31",
+			"versionInfo": "2.9.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1e690588ed5357b0",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20200121204235-bf4fb3bd569c",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/kube-openapi",
+			"versionInfo": "v0.0.0-20200121204235-bf4fb3bd569c"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1e73e9000c24e5b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libnsl2@1.2.0-5.20180605git4a062cf.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and LGPLv2+",
+			"licenseDeclared": "BSD and LGPLv2+",
+			"name": "libnsl2",
+			"sourceInfo": "built package from: libnsl2 1.2.0-5.20180605git4a062cf.fc31",
+			"versionInfo": "1.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-22682db97bd53f4c",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/prometheus/common@v0.9.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/prometheus/common",
+			"versionInfo": "v0.9.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-255c7bf8caca82ae",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/yum@4.2.21-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and GPLv2 and GPL",
+			"licenseDeclared": "GPLv2+ and GPLv2 and GPL",
+			"name": "yum",
+			"sourceInfo": "built package from: dnf 4.2.21-1.fc31",
+			"versionInfo": "4.2.21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-289c1f445571bc36",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/ncurses-base@6.1-12.20190803.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "ncurses-base",
+			"sourceInfo": "built package from: ncurses 6.1-12.20190803.fc31",
+			"versionInfo": "6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-29fec9e2720a1670",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/crypto@v0.0.0-20200220183623-bac4c82f6975",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/crypto",
+			"versionInfo": "v0.0.0-20200220183623-bac4c82f6975"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2c2cf25089142d63",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/imdario/mergo@v0.3.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/imdario/mergo",
+			"versionInfo": "v0.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2ec80eb57d6185f3",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/basesystem@11-8.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "basesystem",
+			"sourceInfo": "built package from: basesystem 11-8.fc31",
+			"versionInfo": "11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2fc94bff9dc4250e",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/sudo@1.9.0-0.1.b4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "ISC",
+			"licenseDeclared": "ISC",
+			"name": "sudo",
+			"sourceInfo": "built package from: sudo 1.9.0-0.1.b4.fc31",
+			"versionInfo": "1.9.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-321a70152aca9b19",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libdb-utils@5.3.28-38.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and LGPLv2 and Sleepycat",
+			"licenseDeclared": "BSD and LGPLv2 and Sleepycat",
+			"name": "libdb-utils",
+			"sourceInfo": "built package from: libdb 5.3.28-38.fc31",
+			"versionInfo": "5.3.28"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-323cf2c8eec40729",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libcomps@0.1.15-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libcomps",
+			"sourceInfo": "built package from: libcomps 0.1.15-1.fc31",
+			"versionInfo": "0.1.15"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-33600793f2e03d6d",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libcap@2.26-6.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2",
+			"licenseDeclared": "GPLv2",
+			"name": "libcap",
+			"sourceInfo": "built package from: libcap 2.26-6.fc31",
+			"versionInfo": "2.26"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-33e87e151c1c3f6a",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/beorn7/perks@v1.0.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/beorn7/perks",
+			"versionInfo": "v1.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-35ef72882499bd8c",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/fedora-release-common@31-4?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "fedora-release-common",
+			"sourceInfo": "built package from: fedora-release 31-4",
+			"versionInfo": "31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3653ba4796d9a022",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-gpg@1.13.1-7.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "python3-gpg",
+			"sourceInfo": "built package from: gpgme 1.13.1-7.fc31",
+			"versionInfo": "1.13.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-36c3930336e16719",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/glibc-minimal-langpack@2.30-11.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+			"licenseDeclared": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+			"name": "glibc-minimal-langpack",
+			"sourceInfo": "built package from: glibc 2.30-11.fc31",
+			"versionInfo": "2.30"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-38f441bb653aece3",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/modern-go/reflect2@v1.0.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/modern-go/reflect2",
+			"versionInfo": "v1.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3927404458dcd61e",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libxcrypt@4.4.16-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and BSD and Public Domain",
+			"licenseDeclared": "LGPLv2+ and BSD and Public Domain",
+			"name": "libxcrypt",
+			"sourceInfo": "built package from: libxcrypt 4.4.16-3.fc31",
+			"versionInfo": "4.4.16"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-392e11e3aedd2a64",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/coreutils@8.31-10.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "coreutils",
+			"sourceInfo": "built package from: coreutils 8.31-10.fc31",
+			"versionInfo": "8.31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-39f261fb45bb4ca1",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/bzip2-libs@1.0.8-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "bzip2-libs",
+			"sourceInfo": "built package from: bzip2 1.0.8-1.fc31",
+			"versionInfo": "1.0.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3a819263aa9ecdad",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20191024005414-555d28b269f0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/time",
+			"versionInfo": "v0.0.0-20191024005414-555d28b269f0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3bf426eddcab2280",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/google/uuid@v1.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/google/uuid",
+			"versionInfo": "v1.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3cf17c269942e762",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libffi@3.1-23.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libffi",
+			"sourceInfo": "built package from: libffi 3.1-23.fc31",
+			"versionInfo": "3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3df9cbb0f6aba03",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python-setuptools-wheel@41.6.0-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT and (BSD or ASL 2.0)",
+			"licenseDeclared": "MIT and (BSD or ASL 2.0)",
+			"name": "python-setuptools-wheel",
+			"sourceInfo": "built package from: python-setuptools 41.6.0-1.fc31",
+			"versionInfo": "41.6.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3f49d89ac3761fe2",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.5.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/prometheus/client_golang",
+			"versionInfo": "v1.5.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4054791f579f984",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libstdc++@9.3.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+			"licenseDeclared": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+			"name": "libstdc++",
+			"sourceInfo": "built package from: gcc 9.3.1-2.fc31",
+			"versionInfo": "9.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4193ac59ee9cf8dc",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/librepo@1.11.3-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "librepo",
+			"sourceInfo": "built package from: librepo 1.11.3-1.fc31",
+			"versionInfo": "1.11.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-42eeb20f13bc50c1",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-libdnf@0.47.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "python3-libdnf",
+			"sourceInfo": "built package from: libdnf 0.47.0-1.fc31",
+			"versionInfo": "0.47.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-42f348e4a3d0f6e0",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/rpm-libs@4.15.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and LGPLv2+ with exceptions",
+			"licenseDeclared": "GPLv2+ and LGPLv2+ with exceptions",
+			"name": "rpm-libs",
+			"sourceInfo": "built package from: rpm 4.15.1-2.fc31",
+			"versionInfo": "4.15.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-437d3b80b0570b1c",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/ca-certificates@2020.2.40-1.1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "ca-certificates",
+			"sourceInfo": "built package from: ca-certificates 2020.2.40-1.1.fc31",
+			"versionInfo": "2020.2.40"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-457b04ca5fd9b010",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gnutls@3.6.13-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and LGPLv2+",
+			"licenseDeclared": "GPLv3+ and LGPLv2+",
+			"name": "gnutls",
+			"sourceInfo": "built package from: gnutls 3.6.13-1.fc31",
+			"versionInfo": "3.6.13"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-459eb2294d7c8ec3",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "gopkg.in/inf.v0",
+			"versionInfo": "v0.9.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-485017f0864139ea",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libmetalink@0.1.3-9.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libmetalink",
+			"sourceInfo": "built package from: libmetalink 0.1.3-9.fc31",
+			"versionInfo": "0.1.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4a953b681166495",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/pam@1.3.1-21.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and GPLv2+",
+			"licenseDeclared": "BSD and GPLv2+",
+			"name": "pam",
+			"sourceInfo": "built package from: pam 1.3.1-21.fc31",
+			"versionInfo": "1.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4ea707485b87438a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/tar@2:1.32-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "tar",
+			"sourceInfo": "built package from: tar 2:1.32-2.fc31",
+			"versionInfo": "1.32"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4fefe17d33d2e12d",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/lua-libs@5.3.5-6.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "lua-libs",
+			"sourceInfo": "built package from: lua 5.3.5-6.fc31",
+			"versionInfo": "5.3.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5089a2d2873386d5",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-libcomps@0.1.15-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "python3-libcomps",
+			"sourceInfo": "built package from: libcomps 0.1.15-1.fc31",
+			"versionInfo": "0.1.15"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-515092016190b11d",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/ncurses-libs@6.1-12.20190803.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "ncurses-libs",
+			"sourceInfo": "built package from: ncurses 6.1-12.20190803.fc31",
+			"versionInfo": "6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-517a64ff00655689",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/crypto-policies@20191128-2.gitcd267a5.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "crypto-policies",
+			"sourceInfo": "built package from: crypto-policies 20191128-2.gitcd267a5.fc31",
+			"versionInfo": "20191128"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-56de62c210dcb8ea",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/cracklib@2.9.6-21.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "cracklib",
+			"sourceInfo": "built package from: cracklib 2.9.6-21.fc31",
+			"versionInfo": "2.9.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-589ba37d4f748417",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/openssl-libs@1:1.1.1g-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "OpenSSL",
+			"licenseDeclared": "OpenSSL",
+			"name": "openssl-libs",
+			"sourceInfo": "built package from: openssl 1:1.1.1g-1.fc31",
+			"versionInfo": "1.1.1g"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-59a0fa3a2de82ceb",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/zchunk-libs@1.1.5-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and MIT",
+			"licenseDeclared": "BSD and MIT",
+			"name": "zchunk-libs",
+			"sourceInfo": "built package from: zchunk 1.1.5-1.fc31",
+			"versionInfo": "1.1.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5a91b1afc089f223",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/elfutils-libs@0.179-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ or LGPLv3+",
+			"licenseDeclared": "GPLv2+ or LGPLv3+",
+			"name": "elfutils-libs",
+			"sourceInfo": "built package from: elfutils 0.179-2.fc31",
+			"versionInfo": "0.179"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5b22290963576a07",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libassuan@2.5.3-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and GPLv3+",
+			"licenseDeclared": "LGPLv2+ and GPLv3+",
+			"name": "libassuan",
+			"sourceInfo": "built package from: libassuan 2.5.3-2.fc31",
+			"versionInfo": "2.5.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5b63323feab90dc4",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libacl@2.2.53-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libacl",
+			"sourceInfo": "built package from: acl 2.2.53-4.fc31",
+			"versionInfo": "2.2.53"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5d6d5266eee6d13b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libselinux@2.9-5.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "libselinux",
+			"sourceInfo": "built package from: libselinux 2.9-5.fc31",
+			"versionInfo": "2.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5e44439a3af198c",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/shadow-utils@2:4.6-18.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and GPLv2+",
+			"licenseDeclared": "BSD and GPLv2+",
+			"name": "shadow-utils",
+			"sourceInfo": "built package from: shadow-utils 2:4.6-18.fc31",
+			"versionInfo": "4.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5e47c1d74801439f",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/modern-go/concurrent",
+			"versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-616b3e9d94163d37",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/golang/groupcache@v0.0.0-20160516000752-02826c3e7903",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/golang/groupcache",
+			"versionInfo": "v0.0.0-20160516000752-02826c3e7903"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-63824a1ee2bce215",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/api@v0.18.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/api",
+			"versionInfo": "v0.18.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6385a509e0227b7a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsigsegv@2.11-8.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libsigsegv",
+			"sourceInfo": "built package from: libsigsegv 2.11-8.fc31",
+			"versionInfo": "2.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-63cb6dea44d654d3",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libmount@2.34-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libmount",
+			"sourceInfo": "built package from: util-linux 2.34-4.fc31",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-641e6e90d31627c6",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libcurl@7.66.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libcurl",
+			"sourceInfo": "built package from: curl 7.66.0-1.fc31",
+			"versionInfo": "7.66.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-642562dbfb3521d7",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/fedora-gpg-keys@31-3?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "fedora-gpg-keys",
+			"sourceInfo": "built package from: fedora-repos 31-3",
+			"versionInfo": "31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6514fcc4ec2b89b0",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libuuid@2.34-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "libuuid",
+			"sourceInfo": "built package from: util-linux 2.34-4.fc31",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-68512e0955c21ef8",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libverto@0.3.0-8.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libverto",
+			"sourceInfo": "built package from: libverto 0.3.0-8.fc31",
+			"versionInfo": "0.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-69156bb780a88494",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/expat@2.2.8-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "expat",
+			"sourceInfo": "built package from: expat 2.2.8-1.fc31",
+			"versionInfo": "2.2.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-69229b6cc7376929",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/p11-kit-trust@0.23.20-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "p11-kit-trust",
+			"sourceInfo": "built package from: p11-kit 0.23.20-1.fc31",
+			"versionInfo": "0.23.20"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6b9e8999d9c40117",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/p11-kit@0.23.20-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "p11-kit",
+			"sourceInfo": "built package from: p11-kit 0.23.20-1.fc31",
+			"versionInfo": "0.23.20"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6c6083f5b0edb02e",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/sigs.k8s.io/structured-merge-diff/v3@v3.0.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "sigs.k8s.io/structured-merge-diff/v3",
+			"versionInfo": "v3.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6e0189219f340962",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libnghttp2@1.40.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libnghttp2",
+			"sourceInfo": "built package from: nghttp2 1.40.0-1.fc31",
+			"versionInfo": "1.40.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6edd3271ade607a3",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/golang/glog@v0.0.0-20160126235308-23def4e6c14b",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/golang/glog",
+			"versionInfo": "v0.0.0-20160126235308-23def4e6c14b"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6ffe32dd5b6a8d22",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/openldap@2.4.47-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "OpenLDAP",
+			"licenseDeclared": "OpenLDAP",
+			"name": "openldap",
+			"sourceInfo": "built package from: openldap 2.4.47-3.fc31",
+			"versionInfo": "2.4.47"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-70f4ad54146d1f03",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libgpg-error@1.36-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libgpg-error",
+			"sourceInfo": "built package from: libgpg-error 1.36-2.fc31",
+			"versionInfo": "1.36"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-718a1c7079ca78e3",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python-pip-wheel@19.1.1-8.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT and Python and ASL 2.0 and BSD and ISC and LGPLv2 and MPLv2.0 and (ASL 2.0 or BSD)",
+			"licenseDeclared": "MIT and Python and ASL 2.0 and BSD and ISC and LGPLv2 and MPLv2.0 and (ASL 2.0 or BSD)",
+			"name": "python-pip-wheel",
+			"sourceInfo": "built package from: python-pip 19.1.1-8.fc31",
+			"versionInfo": "19.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-723720545f9fb089",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/pcre@8.44-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "pcre",
+			"sourceInfo": "built package from: pcre 8.44-1.fc31",
+			"versionInfo": "8.44"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-74d58dcda401c9fe",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/miekg/dns@v1.1.29",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/miekg/dns",
+			"versionInfo": "v1.1.29"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-767b45268e57b6c1",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/xz-libs@5.2.4-6.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "xz-libs",
+			"sourceInfo": "built package from: xz 5.2.4-6.fc31",
+			"versionInfo": "5.2.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7902a31c7fb6f04b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/pcre2@10.35-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "pcre2",
+			"sourceInfo": "built package from: pcre2 10.35-1.fc31",
+			"versionInfo": "10.35"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7bb084f7095a525b",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/net@v0.0.0-20191004110552-13f9640d40b9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/net",
+			"versionInfo": "v0.0.0-20191004110552-13f9640d40b9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7d8428fb86f0a48b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/readline@8.0-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "readline",
+			"sourceInfo": "built package from: readline 8.0-3.fc31",
+			"versionInfo": "8.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7d99689e584a6191",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/sed@4.5-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "sed",
+			"sourceInfo": "built package from: sed 4.5-4.fc31",
+			"versionInfo": "4.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7f26fc6ad85edd0b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/curl@7.66.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "curl",
+			"sourceInfo": "built package from: curl 7.66.0-1.fc31",
+			"versionInfo": "7.66.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8176b1716d83fa5a",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/klog@v1.0.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/klog",
+			"versionInfo": "v1.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-82d242ef798887fb",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/ncurses@6.1-12.20190803.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "ncurses",
+			"sourceInfo": "built package from: ncurses 6.1-12.20190803.fc31",
+			"versionInfo": "6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8391beafb108f094",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/pcre2-syntax@10.35-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "pcre2-syntax",
+			"sourceInfo": "built package from: pcre2 10.35-1.fc31",
+			"versionInfo": "10.35"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8521b25b83cec3a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsemanage@2.9-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libsemanage",
+			"sourceInfo": "built package from: libsemanage 2.9-3.fc31",
+			"versionInfo": "2.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-875ffe49cbd49d2b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libgomp@9.3.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+			"licenseDeclared": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+			"name": "libgomp",
+			"sourceInfo": "built package from: gcc 9.3.1-2.fc31",
+			"versionInfo": "9.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8847f2e869c67e6b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libzstd@1.4.5-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and GPLv2",
+			"licenseDeclared": "BSD and GPLv2",
+			"name": "libzstd",
+			"sourceInfo": "built package from: zstd 1.4.5-3.fc31",
+			"versionInfo": "1.4.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-88e682aadaea72a6",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-dnf@4.2.21-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and GPLv2 and GPL",
+			"licenseDeclared": "GPLv2+ and GPLv2 and GPL",
+			"name": "python3-dnf",
+			"sourceInfo": "built package from: dnf 4.2.21-1.fc31",
+			"versionInfo": "4.2.21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8a674358b621d626",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsss_idmap@2.2.3-13.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+",
+			"licenseDeclared": "LGPLv3+",
+			"name": "libsss_idmap",
+			"sourceInfo": "built package from: sssd 2.2.3-13.fc31",
+			"versionInfo": "2.2.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8ce4e98a1d9dc61",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libfdisk@2.34-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libfdisk",
+			"sourceInfo": "built package from: util-linux 2.34-4.fc31",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8d94d5d8a1a42b6f",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/grep@3.3-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "grep",
+			"sourceInfo": "built package from: grep 3.3-3.fc31",
+			"versionInfo": "3.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8f08118de37b03ac",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/publicsuffix-list-dafsa@20190417-2.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MPLv2.0",
+			"licenseDeclared": "MPLv2.0",
+			"name": "publicsuffix-list-dafsa",
+			"sourceInfo": "built package from: publicsuffix-list 20190417-2.fc31",
+			"versionInfo": "20190417"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8fabf381cc77ab8a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/nettle@3.5.1-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+ or GPLv2+",
+			"licenseDeclared": "LGPLv3+ or GPLv2+",
+			"name": "nettle",
+			"sourceInfo": "built package from: nettle 3.5.1-3.fc31",
+			"versionInfo": "3.5.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-90ccdc83118e5240",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libreport-filesystem@2.12.0-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "libreport-filesystem",
+			"sourceInfo": "built package from: libreport 2.12.0-1.fc31",
+			"versionInfo": "2.12.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-90e1ab52f817761b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libutempter@1.1.6-17.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libutempter",
+			"sourceInfo": "built package from: libutempter 1.1.6-17.fc31",
+			"versionInfo": "1.1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-91c219031ed8bce1",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/mpfr@3.1.6-5.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+ and GPLv3+ and GFDL",
+			"licenseDeclared": "LGPLv3+ and GPLv3+ and GFDL",
+			"name": "mpfr",
+			"sourceInfo": "built package from: mpfr 3.1.6-5.fc31",
+			"versionInfo": "3.1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9278e2ebc03c0165",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libtirpc@1.2.6-0.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "SISSL and BSD",
+			"licenseDeclared": "SISSL and BSD",
+			"name": "libtirpc",
+			"sourceInfo": "built package from: libtirpc 1.2.6-0.fc31",
+			"versionInfo": "1.2.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-94edf9bca29b5d21",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gpg-pubkey@3c3359c4-5c6ae44d?arch=None\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "pubkey",
+			"licenseDeclared": "pubkey",
+			"name": "gpg-pubkey",
+			"sourceInfo": "built package from:  ",
+			"versionInfo": "3c3359c4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-959b253fb21d3b4a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/rpm@4.15.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "rpm",
+			"sourceInfo": "built package from: rpm 4.15.1-2.fc31",
+			"versionInfo": "4.15.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-976a82c346819b49",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/matttproud/golang_protobuf_extensions",
+			"versionInfo": "v1.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-98291f994faa024",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/tzdata@2020a-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "tzdata",
+			"sourceInfo": "built package from: tzdata 2020a-1.fc31",
+			"versionInfo": "2020a"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9851edb18c3ab6b9",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/apimachinery@v0.18.2-beta.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/apimachinery",
+			"versionInfo": "v0.18.2-beta.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-98613428d4f59442",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/prometheus/procfs@v0.0.8",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/prometheus/procfs",
+			"versionInfo": "v0.0.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-99030faea481afc7",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/alternatives@1.11-5.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2",
+			"licenseDeclared": "GPLv2",
+			"name": "alternatives",
+			"sourceInfo": "built package from: chkconfig 1.11-5.fc31",
+			"versionInfo": "1.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-99b1f78319f6db71",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/rpm-sign-libs@4.15.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and LGPLv2+ with exceptions",
+			"licenseDeclared": "GPLv2+ and LGPLv2+ with exceptions",
+			"name": "rpm-sign-libs",
+			"sourceInfo": "built package from: rpm 4.15.1-2.fc31",
+			"versionInfo": "4.15.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9caf40ba7bc477c",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/oauth2",
+			"versionInfo": "v0.0.0-20200107190931-bf48bf16ab8d"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9de01208cc71dcea",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libdb@5.3.28-38.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD and LGPLv2 and Sleepycat",
+			"licenseDeclared": "BSD and LGPLv2 and Sleepycat",
+			"name": "libdb",
+			"sourceInfo": "built package from: libdb 5.3.28-38.fc31",
+			"versionInfo": "5.3.28"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9e17c92fb8bd0286",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/glib2@2.62.6-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "glib2",
+			"sourceInfo": "built package from: glib2 2.62.6-1.fc31",
+			"versionInfo": "2.62.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9e6b6b75c7cafe8c",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsepol@2.9-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libsepol",
+			"sourceInfo": "built package from: libsepol 2.9-2.fc31",
+			"versionInfo": "2.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9eb9c635af3e4341",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/vim-minimal@2:8.2.752-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Vim and MIT",
+			"licenseDeclared": "Vim and MIT",
+			"name": "vim-minimal",
+			"sourceInfo": "built package from: vim 2:8.2.752-1.fc31",
+			"versionInfo": "8.2.752"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9f11ea9f39b80a31",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libblkid@2.34-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libblkid",
+			"sourceInfo": "built package from: util-linux 2.34-4.fc31",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9f77202417fc9ff7",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/client-go@v0.18.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/client-go",
+			"versionInfo": "v0.18.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a0d073a1bf6cae58",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libcom_err@1.45.5-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libcom_err",
+			"sourceInfo": "built package from: e2fsprogs 1.45.5-1.fc31",
+			"versionInfo": "1.45.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a1ce499e61f9a8d5",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libxml2@2.9.10-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libxml2",
+			"sourceInfo": "built package from: libxml2 2.9.10-3.fc31",
+			"versionInfo": "2.9.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a368544b75a15c36",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/json-iterator/go@v1.1.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/json-iterator/go",
+			"versionInfo": "v1.1.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a4b6331321affda9",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libcap-ng@0.7.10-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libcap-ng",
+			"sourceInfo": "built package from: libcap-ng 0.7.10-1.fc31",
+			"versionInfo": "0.7.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a69298f6447ddec3",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/google/gofuzz@v1.1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/google/gofuzz",
+			"versionInfo": "v1.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a6af5b028940a4a4",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-rpm@4.15.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+",
+			"licenseDeclared": "GPLv2+",
+			"name": "python3-rpm",
+			"sourceInfo": "built package from: rpm 4.15.1-2.fc31",
+			"versionInfo": "4.15.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-aa833e90c3778fce",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/spf13/pflag",
+			"versionInfo": "v1.0.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-abb6329c36b05305",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/ima-evm-utils@1.2.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2",
+			"licenseDeclared": "GPLv2",
+			"name": "ima-evm-utils",
+			"sourceInfo": "built package from: ima-evm-utils 1.2.1-2.fc31",
+			"versionInfo": "1.2.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-aedaad0e4ddd0d7f",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsolv@0.7.12-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "libsolv",
+			"sourceInfo": "built package from: libsolv 0.7.12-1.fc31",
+			"versionInfo": "0.7.12"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-afeacf680778d293",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/bash@5.0.11-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "bash",
+			"sourceInfo": "built package from: bash 5.0.11-1.fc31",
+			"versionInfo": "5.0.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b1cea6d533465596",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gpgme@1.13.1-7.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "gpgme",
+			"sourceInfo": "built package from: gpgme 1.13.1-7.fc31",
+			"versionInfo": "1.13.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b25b72112d43eeca",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libarchive@3.4.2-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "libarchive",
+			"sourceInfo": "built package from: libarchive 3.4.2-1.fc31",
+			"versionInfo": "3.4.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b58ae71231cc9c8c",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/hashicorp/golang-lru@v0.5.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/hashicorp/golang-lru",
+			"versionInfo": "v0.5.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b6eb008568476df9",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libssh-config@0.9.4-2.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libssh-config",
+			"sourceInfo": "built package from: libssh 0.9.4-2.fc31",
+			"versionInfo": "0.9.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b727e42ef619a4f8",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gawk@5.0.1-5.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and GPLv2+ and LGPLv2+ and BSD",
+			"licenseDeclared": "GPLv3+ and GPLv2+ and LGPLv2+ and BSD",
+			"name": "gawk",
+			"sourceInfo": "built package from: gawk 5.0.1-5.fc31",
+			"versionInfo": "5.0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b803bdc498ab406f",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/gogo/protobuf@v1.3.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/gogo/protobuf",
+			"versionInfo": "v1.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b887acbb83407718",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/zlib@1.2.11-20.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "zlib and Boost",
+			"licenseDeclared": "zlib and Boost",
+			"name": "zlib",
+			"sourceInfo": "built package from: zlib 1.2.11-20.fc31",
+			"versionInfo": "1.2.11"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bab8078f7499c3e7",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/brotli@1.0.7-6.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "brotli",
+			"sourceInfo": "built package from: brotli 1.0.7-6.fc31",
+			"versionInfo": "1.0.7"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bd231a6c6c7feff9",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20200327001022-6496210b90e8",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/utils",
+			"versionInfo": "v0.0.0-20200327001022-6496210b90e8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bd71bf6b4e0ca14f",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/npth@1.6-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "npth",
+			"sourceInfo": "built package from: npth 1.6-3.fc31",
+			"versionInfo": "1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-be4189d442655938",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/fedora-repos@31-3?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "fedora-repos",
+			"sourceInfo": "built package from: fedora-repos 31-3",
+			"versionInfo": "31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bf33164d1c1a70a9",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gnupg2@2.2.20-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "gnupg2",
+			"sourceInfo": "built package from: gnupg2 2.2.20-2.fc31",
+			"versionInfo": "2.2.20"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c02c1d07e6261189",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libidn2@2.3.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "(GPLv2+ or LGPLv3+) and GPLv3+",
+			"licenseDeclared": "(GPLv2+ or LGPLv3+) and GPLv3+",
+			"name": "libidn2",
+			"sourceInfo": "built package from: libidn2 2.3.0-1.fc31",
+			"versionInfo": "2.3.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c374293b0052e40a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gzip@1.10-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and GFDL",
+			"licenseDeclared": "GPLv3+ and GFDL",
+			"name": "gzip",
+			"sourceInfo": "built package from: gzip 1.10-1.fc31",
+			"versionInfo": "1.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c396f3fb2351a7b0",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/sqlite-libs@3.30.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "sqlite-libs",
+			"sourceInfo": "built package from: sqlite 3.30.0-1.fc31",
+			"versionInfo": "3.30.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c5bc5afad8402f6e",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/sssd-client@2.2.3-13.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+",
+			"licenseDeclared": "LGPLv3+",
+			"name": "sssd-client",
+			"sourceInfo": "built package from: sssd 2.2.3-13.fc31",
+			"versionInfo": "2.2.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c7aad0a50e343b53",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/dnf@4.2.21-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and GPLv2 and GPL",
+			"licenseDeclared": "GPLv2+ and GPLv2 and GPL",
+			"name": "dnf",
+			"sourceInfo": "built package from: dnf 4.2.21-1.fc31",
+			"versionInfo": "4.2.21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ca49820f97022b4d",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/rpm-build-libs@4.15.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and LGPLv2+ with exceptions",
+			"licenseDeclared": "GPLv2+ and LGPLv2+ with exceptions",
+			"name": "rpm-build-libs",
+			"sourceInfo": "built package from: rpm 4.15.1-2.fc31",
+			"versionInfo": "4.15.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-caddd255bd31c0a9",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/util-linux@2.34-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain",
+			"licenseDeclared": "GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain",
+			"name": "util-linux",
+			"sourceInfo": "built package from: util-linux 2.34-4.fc31",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cae939b5fe05bde5",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/elfutils-libelf@0.179-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ or LGPLv3+",
+			"licenseDeclared": "GPLv2+ or LGPLv3+",
+			"name": "elfutils-libelf",
+			"sourceInfo": "built package from: elfutils 0.179-2.fc31",
+			"versionInfo": "0.179"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cb4bee2c77ff6b4d",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/filesystem@3.12-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "filesystem",
+			"sourceInfo": "built package from: filesystem 3.12-2.fc31",
+			"versionInfo": "3.12"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ce10ac53592d6b91",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20200122134326-e047566fdf82",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/sys",
+			"versionInfo": "v0.0.0-20200122134326-e047566fdf82"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cef5f0752d42cba8",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsmartcols@2.34-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libsmartcols",
+			"sourceInfo": "built package from: util-linux 2.34-4.fc31",
+			"versionInfo": "2.34"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cf7c4f294e820dec",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libgcc@9.3.1-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+			"licenseDeclared": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+			"name": "libgcc",
+			"sourceInfo": "built package from: gcc 9.3.1-2.fc31",
+			"versionInfo": "9.3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d160b46a794e1ba5",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.1.1",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/cespare/xxhash/v2",
+			"versionInfo": "v2.1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d367c4a6d8f85a44",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/keyutils-libs@1.6-3.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and LGPLv2+",
+			"licenseDeclared": "GPLv2+ and LGPLv2+",
+			"name": "keyutils-libs",
+			"sourceInfo": "built package from: keyutils 1.6-3.fc31",
+			"versionInfo": "1.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d442608ea287eafb",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/gmp@1:6.1.2-10.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+ or GPLv2+",
+			"licenseDeclared": "LGPLv3+ or GPLv2+",
+			"name": "gmp",
+			"sourceInfo": "built package from: gmp 1:6.1.2-10.fc31",
+			"versionInfo": "6.1.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d444dd3d5c60421",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/rootfiles@8.1-25.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "rootfiles",
+			"sourceInfo": "built package from: rootfiles 8.1-25.fc31",
+			"versionInfo": "8.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d52d6e994ce8ee85",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/systemd-libs@243.8-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and MIT",
+			"licenseDeclared": "LGPLv2+ and MIT",
+			"name": "systemd-libs",
+			"sourceInfo": "built package from: systemd 243.8-1.fc31",
+			"versionInfo": "243.8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d5c7f6dba209202b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libdnf@0.47.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libdnf",
+			"sourceInfo": "built package from: libdnf 0.47.0-1.fc31",
+			"versionInfo": "0.47.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d5f8b1a11d961252",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/elfutils-default-yama-scope@0.179-2.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ or LGPLv3+",
+			"licenseDeclared": "GPLv2+ or LGPLv3+",
+			"name": "elfutils-default-yama-scope",
+			"sourceInfo": "built package from: elfutils 0.179-2.fc31",
+			"versionInfo": "0.179"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d6ed19a7e4b18a94",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libattr@2.4.48-7.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libattr",
+			"sourceInfo": "built package from: attr 2.4.48-7.fc31",
+			"versionInfo": "2.4.48"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d719a6f5b22251ae",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.3.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/golang/protobuf",
+			"versionInfo": "v1.3.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d772eb2b2e5f5054",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/sigs.k8s.io/yaml@v1.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "sigs.k8s.io/yaml",
+			"versionInfo": "v1.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d820fcaad94c1f65",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/openssl@1:1.1.1g-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "OpenSSL",
+			"licenseDeclared": "OpenSSL",
+			"name": "openssl",
+			"sourceInfo": "built package from: openssl 1:1.1.1g-1.fc31",
+			"versionInfo": "1.1.1g"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d83f4742d8c72b82",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libgcrypt@1.8.5-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libgcrypt",
+			"sourceInfo": "built package from: libgcrypt 1.8.5-1.fc31",
+			"versionInfo": "1.8.5"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d913d46775f38b92",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/k8s.io/kubernetes@v1.18.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "k8s.io/kubernetes",
+			"versionInfo": "v1.18.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d9917385d3b65cae",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libpwquality@1.4.2-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD or GPLv2+",
+			"licenseDeclared": "BSD or GPLv2+",
+			"name": "libpwquality",
+			"sourceInfo": "built package from: libpwquality 1.4.2-1.fc31",
+			"versionInfo": "1.4.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-da149de91c33582b",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-hawkey@0.47.0-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "python3-hawkey",
+			"sourceInfo": "built package from: libdnf 0.47.0-1.fc31",
+			"versionInfo": "0.47.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-da191d2ad5b51cdd",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/googleapis/gnostic@v0.1.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/googleapis/gnostic",
+			"versionInfo": "v0.1.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-da5a50adcd2f74d9",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libssh@0.9.4-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libssh",
+			"sourceInfo": "built package from: libssh 0.9.4-2.fc31",
+			"versionInfo": "0.9.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dad5a77f30539734",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3-libs@3.7.7-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Python",
+			"licenseDeclared": "Python",
+			"name": "python3-libs",
+			"sourceInfo": "built package from: python3 3.7.7-1.fc31",
+			"versionInfo": "3.7.7"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dcbd1eb06d0f46a",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/coreutils-common@8.31-10.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv3+",
+			"licenseDeclared": "GPLv3+",
+			"name": "coreutils-common",
+			"sourceInfo": "built package from: coreutils 8.31-10.fc31",
+			"versionInfo": "8.31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dcc24050f7c59c",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/setup@2.13.6-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Public Domain",
+			"licenseDeclared": "Public Domain",
+			"name": "setup",
+			"sourceInfo": "built package from: setup 2.13.6-1.fc31",
+			"versionInfo": "2.13.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-dd6f06f03f80b49d",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/glibc@2.30-11.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+			"licenseDeclared": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+			"name": "glibc",
+			"sourceInfo": "built package from: glibc 2.30-11.fc31",
+			"versionInfo": "2.30"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-de516c5d8418b83e",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/sigs.k8s.io/sig-storage-lib-external-provisioner/v6@v6.0.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "sigs.k8s.io/sig-storage-lib-external-provisioner/v6",
+			"versionInfo": "v6.0.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e1f08ec8662708a3",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/fedora-release-container@31-4?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "fedora-release-container",
+			"sourceInfo": "built package from: fedora-release 31-4",
+			"versionInfo": "31"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e4071dd131dd12f4",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/glibc-common@2.30-11.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+			"licenseDeclared": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+			"name": "glibc-common",
+			"sourceInfo": "built package from: glibc 2.30-11.fc31",
+			"versionInfo": "2.30"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e9d4092631cd0b54",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libunistring@0.9.10-6.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLV2+ or LGPLv3+",
+			"licenseDeclared": "GPLV2+ or LGPLv3+",
+			"name": "libunistring",
+			"sourceInfo": "built package from: libunistring 0.9.10-6.fc31",
+			"versionInfo": "0.9.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ebca0b3ba8a0242",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/dnf-data@4.2.21-1.fc31?arch=noarch\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and GPLv2 and GPL",
+			"licenseDeclared": "GPLv2+ and GPLv2 and GPL",
+			"name": "dnf-data",
+			"sourceInfo": "built package from: dnf 4.2.21-1.fc31",
+			"versionInfo": "4.2.21"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ee22f0bbedacde8c",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/lz4-libs@1.9.1-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPLv2+ and BSD",
+			"licenseDeclared": "GPLv2+ and BSD",
+			"name": "lz4-libs",
+			"sourceInfo": "built package from: lz4 1.9.1-1.fc31",
+			"versionInfo": "1.9.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ef4eb1e2673a2cb0",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/github.com/prometheus/client_model@v0.2.0",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "github.com/prometheus/client_model",
+			"versionInfo": "v0.2.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f06847c699df156e",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libpsl@0.21.0-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libpsl",
+			"sourceInfo": "built package from: libpsl 0.21.0-2.fc31",
+			"versionInfo": "0.21.0"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f1d06da453eb5c49",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/librtas@2.0.2-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL",
+			"licenseDeclared": "LGPL",
+			"name": "librtas",
+			"sourceInfo": "built package from: librtas 2.0.2-4.fc31",
+			"versionInfo": "2.0.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f1d36a6555b6ac7",
+			"attributionTexts": [
+				"LayerDigest: sha256:f6edc7ac8fe61658385f4ff8332b1e9a934ab6226e03889410fa7956cef8c336",
+				"LayerDiffID: sha256:8533ee451e8878f128bbae3c889922facba80568c73adbde5ddd73f5923a736e"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:golang/golang.org/x/text@v0.3.2",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "golang.org/x/text",
+			"versionInfo": "v0.3.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f1ee1851886a534",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libyaml@0.2.2-2.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "libyaml",
+			"sourceInfo": "built package from: libyaml 0.2.2-2.fc31",
+			"versionInfo": "0.2.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f3207326ab722107",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/python3@3.7.7-1.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Python",
+			"licenseDeclared": "Python",
+			"name": "python3",
+			"sourceInfo": "built package from: python3 3.7.7-1.fc31",
+			"versionInfo": "3.7.7"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f5d1ba60ebfbf6fc",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/krb5-libs@1.17-46.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "krb5-libs",
+			"sourceInfo": "built package from: krb5 1.17-46.fc31",
+			"versionInfo": "1.17"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f8f9c266bd8e34c1",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/popt@1.16-18.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT",
+			"licenseDeclared": "MIT",
+			"name": "popt",
+			"sourceInfo": "built package from: popt 1.16-18.fc31",
+			"versionInfo": "1.16"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f991b26fc7e59077",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libusbx@1.0.22-4.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv2+",
+			"licenseDeclared": "LGPLv2+",
+			"name": "libusbx",
+			"sourceInfo": "built package from: libusbx 1.0.22-4.fc31",
+			"versionInfo": "1.0.22"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fae882a3d665d867",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libsss_nss_idmap@2.2.3-13.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPLv3+",
+			"licenseDeclared": "LGPLv3+",
+			"name": "libsss_nss_idmap",
+			"sourceInfo": "built package from: sssd 2.2.3-13.fc31",
+			"versionInfo": "2.2.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fe34140c49ffb107",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/file-libs@5.37-8.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD",
+			"licenseDeclared": "BSD",
+			"name": "file-libs",
+			"sourceInfo": "built package from: file 5.37-8.fc31",
+			"versionInfo": "5.37"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ff76d6d2968e6122",
+			"attributionTexts": [
+				"LayerDigest: sha256:7941132c6176978ac263cb999bd6f1f2db0038e42a6083d79e09c909f3fe14e7",
+				"LayerDiffID: sha256:72275ee994fe53a144876abd2f8163432b44c9783a051fd22581eeac67317cd0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:rpm/fedora/libksba@1.3.5-10.fc31?arch=ppc64le\u0026distro=fedora-31",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "(LGPLv3+ or GPLv2+) and GPLv3+",
+			"licenseDeclared": "(LGPLv3+ or GPLv2+) and GPLv3+",
+			"name": "libksba",
+			"sourceInfo": "built package from: libksba 1.3.5-10.fc31",
+			"versionInfo": "1.3.5"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-ContainerImage-f765a6fdac1e7c41",
+			"relationshipType": "DESCRIBE",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-OperatingSystem-601de241f1581730",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-f765a6fdac1e7c41"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-99030faea481afc7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-115a58c49b1d91e2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2ec80eb57d6185f3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-afeacf680778d293",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bab8078f7499c3e7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-39f261fb45bb4ca1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-437d3b80b0570b1c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-392e11e3aedd2a64",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dcbd1eb06d0f46a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-56de62c210dcb8ea",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-517a64ff00655689",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7f26fc6ad85edd0b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-15c21400c0cfbc7f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c7aad0a50e343b53",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ebca0b3ba8a0242",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d5f8b1a11d961252",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cae939b5fe05bde5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5a91b1afc089f223",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-69156bb780a88494",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-642562dbfb3521d7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-35ef72882499bd8c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e1f08ec8662708a3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-be4189d442655938",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fe34140c49ffb107",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cb4bee2c77ff6b4d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b727e42ef619a4f8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-161000b4f57b2a0b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9e17c92fb8bd0286",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dd6f06f03f80b49d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e4071dd131dd12f4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-36c3930336e16719",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d442608ea287eafb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bf33164d1c1a70a9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-457b04ca5fd9b010",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-94edf9bca29b5d21",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b1cea6d533465596",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8d94d5d8a1a42b6f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c374293b0052e40a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-abb6329c36b05305",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-184a07fc975431ce",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d367c4a6d8f85a44",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f5d1ba60ebfbf6fc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5b63323feab90dc4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b25b72112d43eeca",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5b22290963576a07",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d6ed19a7e4b18a94",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9f11ea9f39b80a31",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-33600793f2e03d6d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a4b6331321affda9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a0d073a1bf6cae58",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-323cf2c8eec40729",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-641e6e90d31627c6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9de01208cc71dcea",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-321a70152aca9b19",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d5c7f6dba209202b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8ce4e98a1d9dc61",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3cf17c269942e762",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cf7c4f294e820dec",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d83f4742d8c72b82",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-875ffe49cbd49d2b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-70f4ad54146d1f03",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c02c1d07e6261189",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ff76d6d2968e6122",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-485017f0864139ea",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1d32376d0f025982",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-63cb6dea44d654d3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6e0189219f340962",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1e73e9000c24e5b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f06847c699df156e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d9917385d3b65cae",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4193ac59ee9cf8dc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-90ccdc83118e5240",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f1d06da453eb5c49",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5d6d5266eee6d13b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8521b25b83cec3a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9e6b6b75c7cafe8c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6385a509e0227b7a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cef5f0752d42cba8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-aedaad0e4ddd0d7f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-da5a50adcd2f74d9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b6eb008568476df9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8a674358b621d626",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fae882a3d665d867",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4054791f579f984",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1ad1b8268e847360",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9278e2ebc03c0165",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e9d4092631cd0b54",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f991b26fc7e59077",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-90e1ab52f817761b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6514fcc4ec2b89b0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-68512e0955c21ef8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3927404458dcd61e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a1ce499e61f9a8d5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f1ee1851886a534",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8847f2e869c67e6b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4fefe17d33d2e12d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ee22f0bbedacde8c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-91c219031ed8bce1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-82d242ef798887fb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-289c1f445571bc36",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-515092016190b11d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8fabf381cc77ab8a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bd71bf6b4e0ca14f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6ffe32dd5b6a8d22",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d820fcaad94c1f65",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-589ba37d4f748417",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6b9e8999d9c40117",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-69229b6cc7376929",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4a953b681166495",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-723720545f9fb089",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7902a31c7fb6f04b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8391beafb108f094",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f8f9c266bd8e34c1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8f08118de37b03ac",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-718a1c7079ca78e3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3df9cbb0f6aba03",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f3207326ab722107",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-88e682aadaea72a6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3653ba4796d9a022",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-da149de91c33582b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5089a2d2873386d5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-42eeb20f13bc50c1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dad5a77f30539734",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a6af5b028940a4a4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7d8428fb86f0a48b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d444dd3d5c60421",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-959b253fb21d3b4a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ca49820f97022b4d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-42f348e4a3d0f6e0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-99b1f78319f6db71",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7d99689e584a6191",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-dcc24050f7c59c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5e44439a3af198c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c396f3fb2351a7b0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c5bc5afad8402f6e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2fc94bff9dc4250e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d52d6e994ce8ee85",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4ea707485b87438a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-14b7f305ea8e69f2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-98291f994faa024",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-caddd255bd31c0a9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9eb9c635af3e4341",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-767b45268e57b6c1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-255c7bf8caca82ae",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-59a0fa3a2de82ceb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b887acbb83407718",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-601de241f1581730"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Application-6e47d1d94b63575f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-f765a6fdac1e7c41"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-33e87e151c1c3f6a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d160b46a794e1ba5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1cf2faec98327ddf",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b803bdc498ab406f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6edd3271ade607a3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-616b3e9d94163d37",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d719a6f5b22251ae",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-145a75fc51c01619",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a69298f6447ddec3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3bf426eddcab2280",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-da191d2ad5b51cdd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b58ae71231cc9c8c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2c2cf25089142d63",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a368544b75a15c36",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-976a82c346819b49",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-74d58dcda401c9fe",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5e47c1d74801439f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-38f441bb653aece3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3f49d89ac3761fe2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ef4eb1e2673a2cb0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-22682db97bd53f4c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-98613428d4f59442",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-aa833e90c3778fce",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-29fec9e2720a1670",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7bb084f7095a525b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9caf40ba7bc477c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ce10ac53592d6b91",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f1d36a6555b6ac7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3a819263aa9ecdad",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-459eb2294d7c8ec3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1a6dd1658df4dd1e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-63824a1ee2bce215",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9851edb18c3ab6b9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9f77202417fc9ff7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8176b1716d83fa5a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1e690588ed5357b0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d913d46775f38b92",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bd231a6c6c7feff9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-de516c5d8418b83e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6c6083f5b0edb02e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d772eb2b2e5f5054",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-Application-6e47d1d94b63575f"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

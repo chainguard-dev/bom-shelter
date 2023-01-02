@@ -1,0 +1,3533 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2022-12-28T21:30:22.680697Z",
+		"creators": [
+			"Tool: trivy",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentNamespace": "http://aquasecurity.github.io/trivy/container_image/rancher/vm@sha256:4121e535c08e208d33b2bbc63863eb7d5eee4707b17167dfe2f0f8400a045736-5b753588-3679-4db8-85f3-7e27b7d2ff02",
+	"name": "rancher/vm@sha256:4121e535c08e208d33b2bbc63863eb7d5eee4707b17167dfe2f0f8400a045736",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-ContainerImage-535407edb5f1944d",
+			"attributionTexts": [
+				"SchemaVersion: 2",
+				"ImageID: sha256:db8e877ff4025ea59ecbd1a4ece092ee57482f6a363aa37f5edd78db88a49148",
+				"RepoDigest: rancher/vm@sha256:4121e535c08e208d33b2bbc63863eb7d5eee4707b17167dfe2f0f8400a045736",
+				"DiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb",
+				"DiffID: sha256:3a89e0d8654e098e949764b1cb23018e27f299b0931c5fd41c207d610ff356c4",
+				"DiffID: sha256:904d60939c360b5f528b886c1b534855a008f9a7fd411d4977e09aa7de74c834",
+				"DiffID: sha256:a20a262b87bd8a00717f3b30c001bcdaf0fd85d049e6d10500597caa29c013c5",
+				"DiffID: sha256:b6f13d447e00fba3b9bd10c1e5c6697e913462f44aa24af349bfaea2054e32f4",
+				"DiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0",
+				"DiffID: sha256:b5621e9888d8bf829f81477023a93de0a8ce5c511f4d9e3ca51285e9ccf3aa36"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:oci/vm@sha256:4121e535c08e208d33b2bbc63863eb7d5eee4707b17167dfe2f0f8400a045736?repository_url=index.docker.io%2Francher%2Fvm\u0026arch=amd64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"name": "rancher/vm@sha256:4121e535c08e208d33b2bbc63863eb7d5eee4707b17167dfe2f0f8400a045736"
+		},
+		{
+			"SPDXID": "SPDXRef-OperatingSystem-bad34c2d474ce2ed",
+			"filesAnalyzed": false,
+			"name": "ubuntu",
+			"versionInfo": "18.04"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-114dd6277d397655",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/netbase@5.4?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "netbase",
+			"sourceInfo": "built package from: netbase 5.4",
+			"versionInfo": "5.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-122616f706748a41",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/liburi-perl@1.73-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "liburi-perl",
+			"sourceInfo": "built package from: liburi-perl 1.73-1",
+			"versionInfo": "1.73-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-14070a07855fb12",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libc-bin@2.27-3ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, GPL-2.0",
+			"licenseDeclared": "LGPL-2.1, GPL-2.0",
+			"name": "libc-bin",
+			"sourceInfo": "built package from: glibc 2.27-3ubuntu1",
+			"versionInfo": "2.27-3ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-160bddcd25cab51d",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libtasn1-6@4.13-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, LGPL-2.1, GPL-3.0, GFDL-1.3",
+			"licenseDeclared": "LGPL-3.0, LGPL-2.1, GPL-3.0, GFDL-1.3",
+			"name": "libtasn1-6",
+			"sourceInfo": "built package from: libtasn1-6 4.13-2",
+			"versionInfo": "4.13-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1973aef313700d27",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/net-tools@1.60+git20161116.90da8a0-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "net-tools",
+			"sourceInfo": "built package from: net-tools 1.60+git20161116.90da8a0-1ubuntu1",
+			"versionInfo": "1.60+git20161116.90da8a0-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1a33169f02d8d1b7",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/liblz4-1@0.0~r131-2ubuntu3?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-2-Clause, GPL-2.0",
+			"licenseDeclared": "BSD-2-Clause, GPL-2.0",
+			"name": "liblz4-1",
+			"sourceInfo": "built package from: lz4 0.0~r131-2ubuntu3",
+			"versionInfo": "0.0~r131-2ubuntu3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1c66936aa0676129",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libselinux1@2.7-2build2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, GPL-2.0",
+			"licenseDeclared": "LGPL-2.1, GPL-2.0",
+			"name": "libselinux1",
+			"sourceInfo": "built package from: libselinux 2.7-2build2",
+			"versionInfo": "2.7-2build2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-1ec78bb709d4b45d",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/base-files@10.1ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "base-files",
+			"sourceInfo": "built package from: base-files 10.1ubuntu2",
+			"versionInfo": "10.1ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-202bc4f002d3ba57",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhttp-message-perl@6.14-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhttp-message-perl",
+			"sourceInfo": "built package from: libhttp-message-perl 6.14-1",
+			"versionInfo": "6.14-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-22c5671a5b466602",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/arp-scan@1.9-3?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GPL-2.0",
+			"licenseDeclared": "GPL-3.0, GPL-2.0",
+			"name": "arp-scan",
+			"sourceInfo": "built package from: arp-scan 1.9-3",
+			"versionInfo": "1.9-3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-231bd3d62e727664",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libidn11@1.33-2.1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL-1.3+, GFDL-1.3, LGPL-3.0, GPL-2.0, LGPL-2.0, LGPL-2.1, GAP",
+			"licenseDeclared": "GPL-3.0, GFDL-1.3+, GFDL-1.3, LGPL-3.0, GPL-2.0, LGPL-2.0, LGPL-2.1, GAP",
+			"name": "libidn11",
+			"sourceInfo": "built package from: libidn 1.33-2.1ubuntu1",
+			"versionInfo": "1.33-2.1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-233f650c148e08eb",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/bash@4.4.18-2ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "bash",
+			"sourceInfo": "built package from: bash 4.4.18-2ubuntu1",
+			"versionInfo": "4.4.18-2ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-241bd480cdeb9e9d",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/gzip@1.6-5ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "gzip",
+			"sourceInfo": "built package from: gzip 1.6-5ubuntu1",
+			"versionInfo": "1.6-5ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-26c06d7c7ba0837a",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libfile-listing-perl@6.04-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libfile-listing-perl",
+			"sourceInfo": "built package from: libfile-listing-perl 6.04-1",
+			"versionInfo": "6.04-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-28e0556081285cd7",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libffi6@3.2.1-8?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "libffi6",
+			"sourceInfo": "built package from: libffi 3.2.1-8",
+			"versionInfo": "3.2.1-8"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-28e5ce71882f33f3",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libdebconfclient0@0.213ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-2-Clause",
+			"licenseDeclared": "BSD-2-Clause",
+			"name": "libdebconfclient0",
+			"sourceInfo": "built package from: cdebconf 0.213ubuntu1",
+			"versionInfo": "0.213ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2902523487e611c3",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libapt-pkg5.0@1.6.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "libapt-pkg5.0",
+			"sourceInfo": "built package from: apt 1.6.1",
+			"versionInfo": "1.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-293a894181f9a27f",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libuuid1@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "libuuid1",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2958e90617896ae2",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/gpgv@2.2.4-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, permissive, LGPL-2.1, Expat, BSD-3-Clause, LGPL-3.0, RFC-Reference, TinySCHEME",
+			"licenseDeclared": "GPL-3.0, permissive, LGPL-2.1, Expat, BSD-3-Clause, LGPL-3.0, RFC-Reference, TinySCHEME",
+			"name": "gpgv",
+			"sourceInfo": "built package from: gnupg2 2.2.4-1ubuntu1",
+			"versionInfo": "2.2.4-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2abea02487909017",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/publicsuffix@20180223.1310-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MPL-2.0, CC0",
+			"licenseDeclared": "MPL-2.0, CC0",
+			"name": "publicsuffix",
+			"sourceInfo": "built package from: publicsuffix 20180223.1310-1",
+			"versionInfo": "20180223.1310-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2c99db3e7ff4c1f3",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpam0g@1.1.8-3.6ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "libpam0g",
+			"sourceInfo": "built package from: pam 1.1.8-3.6ubuntu2",
+			"versionInfo": "1.1.8-3.6ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2cd86ce3d2bf29bb",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/perl-modules-5.26@5.26.1-6ubuntu0.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-1.0, Artistic, Expat, REGCOMP, GPL-2.0-with-bison-exception, Unicode, S2P, BZIP, Zlib, GPL-2.0, RRA-KEEP-THIS-NOTICE, BSD-3-clause-with-weird-numbering, CC0-1.0, TEXT-TABS, BSD-4-clause-POWERDOG, BSD-3-clause-GENERIC, BSD-3-Clause, SDBM-PUBLIC-DOMAIN, DONT-CHANGE-THE-GPL, Artistic-dist, LGPL-2.1, Artistic-2, HSIEH-DERIVATIVE, HSIEH-BSD",
+			"licenseDeclared": "GPL-1.0, Artistic, Expat, REGCOMP, GPL-2.0-with-bison-exception, Unicode, S2P, BZIP, Zlib, GPL-2.0, RRA-KEEP-THIS-NOTICE, BSD-3-clause-with-weird-numbering, CC0-1.0, TEXT-TABS, BSD-4-clause-POWERDOG, BSD-3-clause-GENERIC, BSD-3-Clause, SDBM-PUBLIC-DOMAIN, DONT-CHANGE-THE-GPL, Artistic-dist, LGPL-2.1, Artistic-2, HSIEH-DERIVATIVE, HSIEH-BSD",
+			"name": "perl-modules-5.26",
+			"sourceInfo": "built package from: perl 5.26.1-6ubuntu0.1",
+			"versionInfo": "5.26.1-6ubuntu0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-2d8c2ca11ea99473",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libudev1@237-3ubuntu10?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, CC0-1.0, GPL-2.0, Expat, public-domain",
+			"licenseDeclared": "LGPL-2.1, CC0-1.0, GPL-2.0, Expat, public-domain",
+			"name": "libudev1",
+			"sourceInfo": "built package from: systemd 237-3ubuntu10",
+			"versionInfo": "237-3ubuntu10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-32263137cc7900bc",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/bsdutils@1:2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "bsdutils",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "1:2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-323c48c358daa702",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhtml-form-perl@6.03-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhtml-form-perl",
+			"sourceInfo": "built package from: libhtml-form-perl 6.03-1",
+			"versionInfo": "6.03-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-347ff999226e625d",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libtinfo5@6.1-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT, BSD-3-Clause",
+			"licenseDeclared": "MIT, BSD-3-Clause",
+			"name": "libtinfo5",
+			"sourceInfo": "built package from: ncurses 6.1-1ubuntu1",
+			"versionInfo": "6.1-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-363cdd4bac6656d8",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libss2@1.44.1-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libss2",
+			"sourceInfo": "built package from: e2fsprogs 1.44.1-1",
+			"versionInfo": "1.44.1-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-37e0e9e5eae79b34",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libbz2-1.0@1.0.6-8.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "libbz2-1.0",
+			"sourceInfo": "built package from: bzip2 1.0.6-8.1",
+			"versionInfo": "1.0.6-8.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3a292b2e70315870",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpcap0.8@1.8.1-6ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libpcap0.8",
+			"sourceInfo": "built package from: libpcap 1.8.1-6ubuntu1",
+			"versionInfo": "1.8.1-6ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3b42469fdc52dd9f",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhtml-format-perl@2.12-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhtml-format-perl",
+			"sourceInfo": "built package from: libhtml-format-perl 2.12-1",
+			"versionInfo": "2.12-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3cc05152153decd0",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/adduser@3.116ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "adduser",
+			"sourceInfo": "built package from: adduser 3.116ubuntu1",
+			"versionInfo": "3.116ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-3dc43d31ed96a131",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/perl@5.26.1-6ubuntu0.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-1.0, Artistic, Expat, REGCOMP, GPL-2.0-with-bison-exception, Unicode, S2P, BZIP, Zlib, GPL-2.0, RRA-KEEP-THIS-NOTICE, BSD-3-clause-with-weird-numbering, CC0-1.0, TEXT-TABS, BSD-4-clause-POWERDOG, BSD-3-clause-GENERIC, BSD-3-Clause, SDBM-PUBLIC-DOMAIN, DONT-CHANGE-THE-GPL, Artistic-dist, LGPL-2.1, Artistic-2, HSIEH-DERIVATIVE, HSIEH-BSD",
+			"licenseDeclared": "GPL-1.0, Artistic, Expat, REGCOMP, GPL-2.0-with-bison-exception, Unicode, S2P, BZIP, Zlib, GPL-2.0, RRA-KEEP-THIS-NOTICE, BSD-3-clause-with-weird-numbering, CC0-1.0, TEXT-TABS, BSD-4-clause-POWERDOG, BSD-3-clause-GENERIC, BSD-3-Clause, SDBM-PUBLIC-DOMAIN, DONT-CHANGE-THE-GPL, Artistic-dist, LGPL-2.1, Artistic-2, HSIEH-DERIVATIVE, HSIEH-BSD",
+			"name": "perl",
+			"sourceInfo": "built package from: perl 5.26.1-6ubuntu0.1",
+			"versionInfo": "5.26.1-6ubuntu0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-40561a57ace826ae",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/sensible-utils@0.0.12?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, All-permissive, configure, installsh",
+			"licenseDeclared": "GPL-2.0, All-permissive, configure, installsh",
+			"name": "sensible-utils",
+			"sourceInfo": "built package from: sensible-utils 0.0.12",
+			"versionInfo": "0.0.12"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-409340ef0b3f8a",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libzstd1@1.3.3+dfsg-2ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-clause-with-patent-grant, Zlib, GPL-2.0, Expat",
+			"licenseDeclared": "BSD-3-clause-with-patent-grant, Zlib, GPL-2.0, Expat",
+			"name": "libzstd1",
+			"sourceInfo": "built package from: libzstd 1.3.3+dfsg-2ubuntu1",
+			"versionInfo": "1.3.3+dfsg-2ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4244621109aea35e",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/e2fsprogs@1.44.1-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, LGPL-2.0",
+			"licenseDeclared": "GPL-2.0, LGPL-2.0",
+			"name": "e2fsprogs",
+			"sourceInfo": "built package from: e2fsprogs 1.44.1-1",
+			"versionInfo": "1.44.1-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4262d6bb8d671c0a",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libnet-http-perl@6.17-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libnet-http-perl",
+			"sourceInfo": "built package from: libnet-http-perl 6.17-1",
+			"versionInfo": "6.17-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-432821658b420ff4",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhogweed4@3.4-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libhogweed4",
+			"sourceInfo": "built package from: nettle 3.4-1",
+			"versionInfo": "3.4-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-446e35a170b81e6d",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/ncurses-base@6.1-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT, BSD-3-Clause",
+			"licenseDeclared": "MIT, BSD-3-Clause",
+			"name": "ncurses-base",
+			"sourceInfo": "built package from: ncurses 6.1-1ubuntu1",
+			"versionInfo": "6.1-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-47af2d9ed3cd04dd",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libfdisk1@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "libfdisk1",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-4fc37515d5456a15",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpam-modules@1.1.8-3.6ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "libpam-modules",
+			"sourceInfo": "built package from: pam 1.1.8-3.6ubuntu2",
+			"versionInfo": "1.1.8-3.6ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-50838c8c488c06da",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhttp-daemon-perl@6.01-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhttp-daemon-perl",
+			"sourceInfo": "built package from: libhttp-daemon-perl 6.01-1",
+			"versionInfo": "6.01-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5357eb6307d2b2bc",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libprocps6@2:3.3.12-3ubuntu1.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, LGPL-2.0, GPL-2.0",
+			"licenseDeclared": "LGPL-2.1, LGPL-2.0, GPL-2.0",
+			"name": "libprocps6",
+			"sourceInfo": "built package from: procps 2:3.3.12-3ubuntu1.1",
+			"versionInfo": "2:3.3.12-3ubuntu1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-53909c58d7d220a0",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/mount@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "mount",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5709aaac26f78b37",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/mawk@1.3.3-17ubuntu3?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "mawk",
+			"sourceInfo": "built package from: mawk 1.3.3-17ubuntu3",
+			"versionInfo": "1.3.3-17ubuntu3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-599eb38bedf63841",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libcom-err2@1.44.1-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libcom-err2",
+			"sourceInfo": "built package from: e2fsprogs 1.44.1-1",
+			"versionInfo": "1.44.1-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5e4989c4f610851b",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/init-system-helpers@1.51?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause, GPL-2.0",
+			"licenseDeclared": "BSD-3-Clause, GPL-2.0",
+			"name": "init-system-helpers",
+			"sourceInfo": "built package from: init-system-helpers 1.51",
+			"versionInfo": "1.51"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5f81dc21feb940db",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhtml-tree-perl@5.07-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhtml-tree-perl",
+			"sourceInfo": "built package from: libhtml-tree-perl 5.07-1",
+			"versionInfo": "5.07-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-609215daad1a8668",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/dpkg@1.19.0.5ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, BSD-2-Clause, public-domain-s-s-d, public-domain-md5",
+			"licenseDeclared": "GPL-2.0, BSD-2-Clause, public-domain-s-s-d, public-domain-md5",
+			"name": "dpkg",
+			"sourceInfo": "built package from: dpkg 1.19.0.5ubuntu2",
+			"versionInfo": "1.19.0.5ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-613f3c7b4263ff4d",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libencode-locale-perl@1.05-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libencode-locale-perl",
+			"sourceInfo": "built package from: libencode-locale-perl 1.05-1",
+			"versionInfo": "1.05-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-65b9f0f7a0b0c5eb",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/perl-base@5.26.1-6ubuntu0.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "perl-base",
+			"sourceInfo": "built package from: perl 5.26.1-6ubuntu0.1",
+			"versionInfo": "5.26.1-6ubuntu0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-668bdb613077ba26",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhtml-tagset-perl@3.20-3?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhtml-tagset-perl",
+			"sourceInfo": "built package from: libhtml-tagset-perl 3.20-3",
+			"versionInfo": "3.20-3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6826f1e91ee1452",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/util-linux@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "util-linux",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-695e753085577e74",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpam-cap@1:2.25-1.2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause, GPL-2.0",
+			"licenseDeclared": "BSD-3-Clause, GPL-2.0",
+			"name": "libpam-cap",
+			"sourceInfo": "built package from: libcap2 1:2.25-1.2",
+			"versionInfo": "1:2.25-1.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-697d459edf12012a",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhttp-negotiate-perl@6.00-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhttp-negotiate-perl",
+			"sourceInfo": "built package from: libhttp-negotiate-perl 6.00-2",
+			"versionInfo": "6.00-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-69844c54b40ffad9",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/ieee-data@20180204.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "WTFPL-2, other, GPL-2.0",
+			"licenseDeclared": "WTFPL-2, other, GPL-2.0",
+			"name": "ieee-data",
+			"sourceInfo": "built package from: ieee-data 20180204.1",
+			"versionInfo": "20180204.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6b306aabbb258975",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libio-html-perl@1.001-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0, GPL-3.0",
+			"licenseDeclared": "Artistic, GPL-1.0, GPL-3.0",
+			"name": "libio-html-perl",
+			"sourceInfo": "built package from: libio-html-perl 1.001-1",
+			"versionInfo": "1.001-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-6b4419a85f36430d",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libdb5.3@5.3.28-13.1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause, Sleepycat",
+			"licenseDeclared": "BSD-3-Clause, Sleepycat",
+			"name": "libdb5.3",
+			"sourceInfo": "built package from: db5.3 5.3.28-13.1ubuntu1",
+			"versionInfo": "5.3.28-13.1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7032f93724b5790b",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libtimedate-perl@2.3000-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libtimedate-perl",
+			"sourceInfo": "built package from: libtimedate-perl 2.3000-2",
+			"versionInfo": "2.3000-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-70f9c3f3b5eb8543",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/grep@3.1-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "grep",
+			"sourceInfo": "built package from: grep 3.1-2",
+			"versionInfo": "3.1-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-710b554542ecf821",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libsemanage1@2.7-2build2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, GPL-3.0",
+			"licenseDeclared": "LGPL-3.0, GPL-3.0",
+			"name": "libsemanage1",
+			"sourceInfo": "built package from: libsemanage 2.7-2build2",
+			"versionInfo": "2.7-2build2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-72343e0417ac2f7f",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libtry-tiny-perl@0.30-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Expat",
+			"licenseDeclared": "Expat",
+			"name": "libtry-tiny-perl",
+			"sourceInfo": "built package from: libtry-tiny-perl 0.30-1",
+			"versionInfo": "0.30-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-742fbbac1f48bf2",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/debconf@1.5.66?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-2-Clause",
+			"licenseDeclared": "BSD-2-Clause",
+			"name": "debconf",
+			"sourceInfo": "built package from: debconf 1.5.66",
+			"versionInfo": "1.5.66"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-75d27d8de8120de1",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libidn2-0@2.0.4-1.1build2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, LGPL-3.0, GPL-2.0, Unicode",
+			"licenseDeclared": "GPL-3.0, LGPL-3.0, GPL-2.0, Unicode",
+			"name": "libidn2-0",
+			"sourceInfo": "built package from: libidn2 2.0.4-1.1build2",
+			"versionInfo": "2.0.4-1.1build2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-79c9be9083c58edf",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/liblzma5@5.2.2-1.3?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "PD, probably-PD, GPL-2.0, LGPL-2.1, permissive-fsf, Autoconf, none, permissive-nowarranty, config-h, LGPL-2.0, noderivs, PD-debian, GPL-3.0",
+			"licenseDeclared": "PD, probably-PD, GPL-2.0, LGPL-2.1, permissive-fsf, Autoconf, none, permissive-nowarranty, config-h, LGPL-2.0, noderivs, PD-debian, GPL-3.0",
+			"name": "liblzma5",
+			"sourceInfo": "built package from: xz-utils 5.2.2-1.3",
+			"versionInfo": "5.2.2-1.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7a7a90049fb36001",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libncursesw5@6.1-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libncursesw5",
+			"sourceInfo": "built package from: ncurses 6.1-1ubuntu1",
+			"versionInfo": "6.1-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7b2271d3714b183e",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpam-modules-bin@1.1.8-3.6ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "libpam-modules-bin",
+			"sourceInfo": "built package from: pam 1.1.8-3.6ubuntu2",
+			"versionInfo": "1.1.8-3.6ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7be040e3699838df",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libio-socket-ssl-perl@2.056-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libio-socket-ssl-perl",
+			"sourceInfo": "built package from: libio-socket-ssl-perl 2.056-1",
+			"versionInfo": "2.056-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7d0334ac9b166f3c",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpam-runtime@1.1.8-3.6ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "libpam-runtime",
+			"sourceInfo": "built package from: pam 1.1.8-3.6ubuntu2",
+			"versionInfo": "1.1.8-3.6ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7d9284d3c284630c",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/sysvinit-utils@2.88dsf-59.10ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "sysvinit-utils",
+			"sourceInfo": "built package from: sysvinit 2.88dsf-59.10ubuntu1",
+			"versionInfo": "2.88dsf-59.10ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7e5a18b2a723bf6f",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/debianutils@4.8.4?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "debianutils",
+			"sourceInfo": "built package from: debianutils 4.8.4",
+			"versionInfo": "4.8.4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-7ee1e475f5c48240",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libsystemd0@237-3ubuntu10?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, CC0-1.0, GPL-2.0, Expat, public-domain",
+			"licenseDeclared": "LGPL-2.1, CC0-1.0, GPL-2.0, Expat, public-domain",
+			"name": "libsystemd0",
+			"sourceInfo": "built package from: systemd 237-3ubuntu10",
+			"versionInfo": "237-3ubuntu10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-80065899b16cc9cd",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/dash@0.5.8-2.10?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "dash",
+			"sourceInfo": "built package from: dash 0.5.8-2.10",
+			"versionInfo": "0.5.8-2.10"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-801508303c7fc8a4",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/ncurses-bin@6.1-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT, BSD-3-Clause",
+			"licenseDeclared": "MIT, BSD-3-Clause",
+			"name": "ncurses-bin",
+			"sourceInfo": "built package from: ncurses 6.1-1ubuntu1",
+			"versionInfo": "6.1-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-82c076e7f705afa1",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libwww-perl@6.31-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libwww-perl",
+			"sourceInfo": "built package from: libwww-perl 6.31-1",
+			"versionInfo": "6.31-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-82d45ec06af2e4fc",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgnutls30@3.5.18-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "The main library is licensed under GNU Lesser, LGPL-3.0, GPL-3.0, GFDL-1.3, LGPL2.1, CC0 license, The MIT License (MIT)",
+			"licenseDeclared": "The main library is licensed under GNU Lesser, LGPL-3.0, GPL-3.0, GFDL-1.3, LGPL2.1, CC0 license, The MIT License (MIT)",
+			"name": "libgnutls30",
+			"sourceInfo": "built package from: gnutls28 3.5.18-1ubuntu1",
+			"versionInfo": "3.5.18-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-85c24df3cac1a49a",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libssl1.1@1.1.0g-2ubuntu4.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "OpenSSL",
+			"licenseDeclared": "OpenSSL",
+			"name": "libssl1.1",
+			"sourceInfo": "built package from: openssl 1.1.0g-2ubuntu4.1",
+			"versionInfo": "1.1.0g-2ubuntu4.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-888d3be5332c5f04",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libauthen-sasl-perl@2.1600-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libauthen-sasl-perl",
+			"sourceInfo": "built package from: libauthen-sasl-perl 2.1600-1",
+			"versionInfo": "2.1600-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8a6893c28dcb75ee",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libattr1@1:2.4.47-2build1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, GPL-2.0",
+			"licenseDeclared": "LGPL-2.1, GPL-2.0",
+			"name": "libattr1",
+			"sourceInfo": "built package from: attr 1:2.4.47-2build1",
+			"versionInfo": "1:2.4.47-2build1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8adda742ed6092ce",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libcap-ng0@0.7.7-3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, GPL-2.0, GPL-3.0",
+			"licenseDeclared": "LGPL-2.1, GPL-2.0, GPL-3.0",
+			"name": "libcap-ng0",
+			"sourceInfo": "built package from: libcap-ng 0.7.7-3.1",
+			"versionInfo": "0.7.7-3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8c04fb0a4c45b1c2",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhtml-parser-perl@3.72-3build1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhtml-parser-perl",
+			"sourceInfo": "built package from: libhtml-parser-perl 3.72-3build1",
+			"versionInfo": "3.72-3build1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-8f4ae076cfbac070",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/base-passwd@3.5.44?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, PD",
+			"licenseDeclared": "GPL-2.0, PD",
+			"name": "base-passwd",
+			"sourceInfo": "built package from: base-passwd 3.5.44",
+			"versionInfo": "3.5.44"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-94131f7826296f75",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgcc1@1:8-20180414-1ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libgcc1",
+			"sourceInfo": "built package from: gcc-8 8-20180414-1ubuntu2",
+			"versionInfo": "1:8-20180414-1ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9460691bfb2754b4",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/wget@1.19.4-1ubuntu2.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL-1.2",
+			"licenseDeclared": "GPL-3.0, GFDL-1.2",
+			"name": "wget",
+			"sourceInfo": "built package from: wget 1.19.4-1ubuntu2.1",
+			"versionInfo": "1.19.4-1ubuntu2.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-98933164349d69ee",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libext2fs2@1.44.1-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, LGPL-2.0",
+			"licenseDeclared": "GPL-2.0, LGPL-2.0",
+			"name": "libext2fs2",
+			"sourceInfo": "built package from: e2fsprogs 1.44.1-1",
+			"versionInfo": "1.44.1-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-9f3e26f183f522d4",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libsepol1@2.7-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, GPL-3.0",
+			"licenseDeclared": "LGPL-3.0, GPL-3.0",
+			"name": "libsepol1",
+			"sourceInfo": "built package from: libsepol 2.7-1",
+			"versionInfo": "2.7-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a5429229da878013",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libcap2-bin@1:2.25-1.2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause, GPL-2.0",
+			"licenseDeclared": "BSD-3-Clause, GPL-2.0",
+			"name": "libcap2-bin",
+			"sourceInfo": "built package from: libcap2 1:2.25-1.2",
+			"versionInfo": "1:2.25-1.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-a5705718c64ee68",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libmailtools-perl@2.18-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, Artistic",
+			"licenseDeclared": "GPL-2.0, Artistic",
+			"name": "libmailtools-perl",
+			"sourceInfo": "built package from: libmailtools-perl 2.18-1",
+			"versionInfo": "2.18-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-aaaab8d281ecbd3c",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/liblwp-mediatypes-perl@6.02-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "liblwp-mediatypes-perl",
+			"sourceInfo": "built package from: liblwp-mediatypes-perl 6.02-1",
+			"versionInfo": "6.02-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ab7cc509c9781572",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/liblwp-protocol-https-perl@6.07-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "liblwp-protocol-https-perl",
+			"sourceInfo": "built package from: liblwp-protocol-https-perl 6.07-2",
+			"versionInfo": "6.07-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-abbcf39ad4095ba6",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libsemanage-common@2.7-2build2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, GPL-3.0",
+			"licenseDeclared": "LGPL-3.0, GPL-3.0",
+			"name": "libsemanage-common",
+			"sourceInfo": "built package from: libsemanage 2.7-2build2",
+			"versionInfo": "2.7-2build2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ae1e7058de12658b",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/coreutils@8.28-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "coreutils",
+			"sourceInfo": "built package from: coreutils 8.28-1ubuntu1",
+			"versionInfo": "8.28-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ae5d7c1ccceea4e3",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libsmartcols1@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "libsmartcols1",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b049dd147c471442",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/procps@2:3.3.12-3ubuntu1.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, LGPL-2.0, GPL-2.0",
+			"licenseDeclared": "LGPL-2.1, LGPL-2.0, GPL-2.0",
+			"name": "procps",
+			"sourceInfo": "built package from: procps 2:3.3.12-3ubuntu1.1",
+			"versionInfo": "2:3.3.12-3ubuntu1.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b0f008947b97d4ba",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgpg-error0@1.27-6?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, BSD-3-Clause, g10-permissive, GPL-3.0",
+			"licenseDeclared": "LGPL-2.1, BSD-3-Clause, g10-permissive, GPL-3.0",
+			"name": "libgpg-error0",
+			"sourceInfo": "built package from: libgpg-error 1.27-6",
+			"versionInfo": "1.27-6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b28d0688a9265c94",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libnettle6@3.4-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, LGPL-2.0, other, GPL-2.0, GPL-2.0-with-autoconf-exception, public-domain, GAP, LGPL-3.0, GPL-3.0",
+			"licenseDeclared": "LGPL-2.1, LGPL-2.0, other, GPL-2.0, GPL-2.0-with-autoconf-exception, public-domain, GAP, LGPL-3.0, GPL-3.0",
+			"name": "libnettle6",
+			"sourceInfo": "built package from: nettle 3.4-1",
+			"versionInfo": "3.4-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b877a7b781a5d91b",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libaudit1@1:2.8.2-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, LGPL-2.1, GPL-1.0",
+			"licenseDeclared": "GPL-2.0, LGPL-2.1, GPL-1.0",
+			"name": "libaudit1",
+			"sourceInfo": "built package from: audit 1:2.8.2-1ubuntu1",
+			"versionInfo": "1:2.8.2-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bbba62aebe746ef",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgdbm-compat4@1.14.1-6?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL-1.3+",
+			"licenseDeclared": "GPL-3.0, GFDL-1.3+",
+			"name": "libgdbm-compat4",
+			"sourceInfo": "built package from: gdbm 1.14.1-6",
+			"versionInfo": "1.14.1-6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bbc220a5bfefac6",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/apt@1.6.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "apt",
+			"sourceInfo": "built package from: apt 1.6.1",
+			"versionInfo": "1.6.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bc3c2dea86265e13",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libc6@2.27-3ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, GPL-2.0",
+			"licenseDeclared": "LGPL-2.1, GPL-2.0",
+			"name": "libc6",
+			"sourceInfo": "built package from: glibc 2.27-3ubuntu1",
+			"versionInfo": "2.27-3ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-beeaa6f826881eda",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/findutils@4.6.0+git+20170828-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL-1.3",
+			"licenseDeclared": "GPL-3.0, GFDL-1.3",
+			"name": "findutils",
+			"sourceInfo": "built package from: findutils 4.6.0+git+20170828-2",
+			"versionInfo": "4.6.0+git+20170828-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-bf608d60e9039eec",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/fdisk@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "fdisk",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c069bf0b6f1df479",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhttp-cookies-perl@6.04-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhttp-cookies-perl",
+			"sourceInfo": "built package from: libhttp-cookies-perl 6.04-1",
+			"versionInfo": "6.04-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c528e53722b48a77",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/ubuntu-keyring@2018.02.28?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "ubuntu-keyring",
+			"sourceInfo": "built package from: ubuntu-keyring 2018.02.28",
+			"versionInfo": "2018.02.28"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c6eab4bc74e65c50",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libp11-kit0@0.23.9-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause, permissive-like-automake-output, ISC, ISC+IBM, same-as-rest-of-p11kit",
+			"licenseDeclared": "BSD-3-Clause, permissive-like-automake-output, ISC, ISC+IBM, same-as-rest-of-p11kit",
+			"name": "libp11-kit0",
+			"sourceInfo": "built package from: p11-kit 0.23.9-2",
+			"versionInfo": "0.23.9-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c7e8e2a4067858e4",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libnet-smtp-ssl-perl@1.04-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libnet-smtp-ssl-perl",
+			"sourceInfo": "built package from: libnet-smtp-ssl-perl 1.04-1",
+			"versionInfo": "1.04-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-c8a88819e7c564a5",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libblkid1@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "libblkid1",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cc1201ef9ba9effe",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgdbm5@1.14.1-6?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL-1.3+",
+			"licenseDeclared": "GPL-3.0, GFDL-1.3+",
+			"name": "libgdbm5",
+			"sourceInfo": "built package from: gdbm 1.14.1-6",
+			"versionInfo": "1.14.1-6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cc77e9bb9938c27a",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libstdc++6@8-20180414-1ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libstdc++6",
+			"sourceInfo": "built package from: gcc-8 8-20180414-1ubuntu2",
+			"versionInfo": "8-20180414-1ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cdf527ea20314e5",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/lsb-base@9.20170808ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, BSD-3-Clause",
+			"licenseDeclared": "GPL-2.0, BSD-3-Clause",
+			"name": "lsb-base",
+			"sourceInfo": "built package from: lsb 9.20170808ubuntu1",
+			"versionInfo": "9.20170808ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-cecf6f3e860fb174",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgmp10@2:6.1.2+dfsg-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, GPL-2.0, GPL-3.0",
+			"licenseDeclared": "LGPL-3.0, GPL-2.0, GPL-3.0",
+			"name": "libgmp10",
+			"sourceInfo": "built package from: gmp 2:6.1.2+dfsg-2",
+			"versionInfo": "2:6.1.2+dfsg-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d012f4bca7ba3905",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libcap2@1:2.25-1.2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause, GPL-2.0",
+			"licenseDeclared": "BSD-3-Clause, GPL-2.0",
+			"name": "libcap2",
+			"sourceInfo": "built package from: libcap2 1:2.25-1.2",
+			"versionInfo": "1:2.25-1.2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d0e0ef0abcf7dcd4",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/hostname@3.20?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "hostname",
+			"sourceInfo": "built package from: hostname 3.20",
+			"versionInfo": "3.20"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d2078d0711d75057",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libfont-afm-perl@1.20-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libfont-afm-perl",
+			"sourceInfo": "built package from: libfont-afm-perl 1.20-2",
+			"versionInfo": "1.20-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d2812835bb137163",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libnet-ssleay-perl@1.84-1build1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic-2.0, Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic-2.0, Artistic, GPL-1.0",
+			"name": "libnet-ssleay-perl",
+			"sourceInfo": "built package from: libnet-ssleay-perl 1.84-1build1",
+			"versionInfo": "1.84-1build1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d47996325a375fd2",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/perl-openssl-defaults@3build1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "perl-openssl-defaults",
+			"sourceInfo": "built package from: perl-openssl-defaults 3build1",
+			"versionInfo": "3build1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d4cfe71356f8984c",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libacl1@2.2.52-3build1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.1, GPL-3.0",
+			"licenseDeclared": "LGPL-2.1, GPL-3.0",
+			"name": "libacl1",
+			"sourceInfo": "built package from: acl 2.2.52-3build1",
+			"versionInfo": "2.2.52-3build1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d774eb78a5c0985",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/iputils-ping@3:20161105-1ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "iputils-ping",
+			"sourceInfo": "built package from: iputils 3:20161105-1ubuntu2",
+			"versionInfo": "3:20161105-1ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d82ac7e1f46486e2",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/ca-certificates@20180409?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "...",
+			"licenseDeclared": "...",
+			"name": "ca-certificates",
+			"sourceInfo": "built package from: ca-certificates 20180409",
+			"versionInfo": "20180409"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-d97e0be70aa918bb",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libunistring2@0.9.9-0ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, GPL-2.0, FreeSoftware, GPL-2+ with distribution exception, GPL-3.0, GFDL-1.2+, MIT, GFDL-1.2",
+			"licenseDeclared": "LGPL-3.0, GPL-2.0, FreeSoftware, GPL-2+ with distribution exception, GPL-3.0, GFDL-1.2+, MIT, GFDL-1.2",
+			"name": "libunistring2",
+			"sourceInfo": "built package from: libunistring 0.9.9-0ubuntu1",
+			"versionInfo": "0.9.9-0ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-da664b9a3adaa511",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libgcrypt20@1.8.1-4ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-3.0, GPL-2.0",
+			"licenseDeclared": "LGPL-3.0, GPL-2.0",
+			"name": "libgcrypt20",
+			"sourceInfo": "built package from: libgcrypt20 1.8.1-4ubuntu1",
+			"versionInfo": "1.8.1-4ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-de61f51be1b40c",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/login@1:4.5-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "login",
+			"sourceInfo": "built package from: shadow 1:4.5-1ubuntu1",
+			"versionInfo": "1:4.5-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-df6c85fc938474f2",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libwww-robotrules-perl@6.01-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libwww-robotrules-perl",
+			"sourceInfo": "built package from: libwww-robotrules-perl 6.01-1",
+			"versionInfo": "6.01-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e363fa5984bac096",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libperl5.26@5.26.1-6ubuntu0.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-1.0, Artistic, Expat, REGCOMP, GPL-2.0-with-bison-exception, Unicode, S2P, BZIP, Zlib, GPL-2.0, RRA-KEEP-THIS-NOTICE, BSD-3-clause-with-weird-numbering, CC0-1.0, TEXT-TABS, BSD-4-clause-POWERDOG, BSD-3-clause-GENERIC, BSD-3-Clause, SDBM-PUBLIC-DOMAIN, DONT-CHANGE-THE-GPL, Artistic-dist, LGPL-2.1, Artistic-2, HSIEH-DERIVATIVE, HSIEH-BSD",
+			"licenseDeclared": "GPL-1.0, Artistic, Expat, REGCOMP, GPL-2.0-with-bison-exception, Unicode, S2P, BZIP, Zlib, GPL-2.0, RRA-KEEP-THIS-NOTICE, BSD-3-clause-with-weird-numbering, CC0-1.0, TEXT-TABS, BSD-4-clause-POWERDOG, BSD-3-clause-GENERIC, BSD-3-Clause, SDBM-PUBLIC-DOMAIN, DONT-CHANGE-THE-GPL, Artistic-dist, LGPL-2.1, Artistic-2, HSIEH-DERIVATIVE, HSIEH-BSD",
+			"name": "libperl5.26",
+			"sourceInfo": "built package from: perl 5.26.1-6ubuntu0.1",
+			"versionInfo": "5.26.1-6ubuntu0.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e8a5dc01d4cd8f28",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/passwd@1:4.5-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "passwd",
+			"sourceInfo": "built package from: shadow 1:4.5-1ubuntu1",
+			"versionInfo": "1:4.5-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-e8d79c587122b2a9",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libhttp-date-perl@6.02-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libhttp-date-perl",
+			"sourceInfo": "built package from: libhttp-date-perl 6.02-1",
+			"versionInfo": "6.02-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ea18cdf5f6be38c5",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libmount1@2.31.1-0.4ubuntu3.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"licenseDeclared": "GPL-2.0, public-domain, BSD-4-Clause, MIT, BSD-2-Clause, BSD-3-Clause, LGPL-2.0, LGPL-2.1, GPL-3.0, LGPL-3.0",
+			"name": "libmount1",
+			"sourceInfo": "built package from: util-linux 2.31.1-0.4ubuntu3.1",
+			"versionInfo": "2.31.1-0.4ubuntu3.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ea33be9c14e1db40",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libdata-dump-perl@1.23-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Artistic, GPL-1.0",
+			"licenseDeclared": "Artistic, GPL-1.0",
+			"name": "libdata-dump-perl",
+			"sourceInfo": "built package from: libdata-dump-perl 1.23-1",
+			"versionInfo": "1.23-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-ed1597c3e92e0a33",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpsl5@0.19.1-5build1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "MIT, Chromium",
+			"licenseDeclared": "MIT, Chromium",
+			"name": "libpsl5",
+			"sourceInfo": "built package from: libpsl 0.19.1-5build1",
+			"versionInfo": "0.19.1-5build1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f0729046b6fb1ce4",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/sed@4.4-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "sed",
+			"sourceInfo": "built package from: sed 4.4-2",
+			"versionInfo": "4.4-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f1e22e990061dc0",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libseccomp2@2.3.1-2.1ubuntu4?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "LGPL-2.0",
+			"licenseDeclared": "LGPL-2.0",
+			"name": "libseccomp2",
+			"sourceInfo": "built package from: libseccomp 2.3.1-2.1ubuntu4",
+			"versionInfo": "2.3.1-2.1ubuntu4"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f48369dbdb2aa6fe",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/gcc-8-base@8-20180414-1ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL-1.2, GPL-2.0, Artistic, LGPL-3.0",
+			"licenseDeclared": "GPL-3.0, GFDL-1.2, GPL-2.0, Artistic, LGPL-3.0",
+			"name": "gcc-8-base",
+			"sourceInfo": "built package from: gcc-8 8-20180414-1ubuntu2",
+			"versionInfo": "8-20180414-1ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f606b0dff47d916a",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libpcre3@2:8.39-9?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "BSD-3-Clause",
+			"licenseDeclared": "BSD-3-Clause",
+			"name": "libpcre3",
+			"sourceInfo": "built package from: pcre3 2:8.39-9",
+			"versionInfo": "2:8.39-9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f6c59d7e34464766",
+			"attributionTexts": [
+				"LayerDigest: sha256:33c0da33e82472c731bce1fd1d5d37902d8f0aef66b425162483e0fbdfee49c3",
+				"LayerDiffID: sha256:7249129b270e8842015c24003faef765295585e13212872b04286e579b64e9b0"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/openssl@1.1.0g-2ubuntu4.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "openssl",
+			"sourceInfo": "built package from: openssl 1.1.0g-2ubuntu4.1",
+			"versionInfo": "1.1.0g-2ubuntu4.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f7f55539662f462e",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libncurses5@6.1-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "libncurses5",
+			"sourceInfo": "built package from: ncurses 6.1-1ubuntu1",
+			"versionInfo": "6.1-1ubuntu1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f8a7bfedcc580ef5",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/diffutils@1:3.6-1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GFDL",
+			"licenseDeclared": "GPL-3.0, GFDL",
+			"name": "diffutils",
+			"sourceInfo": "built package from: diffutils 1:3.6-1",
+			"versionInfo": "1:3.6-1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f924498fda66daa0",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/zlib1g@1:1.2.11.dfsg-0ubuntu2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "Zlib",
+			"licenseDeclared": "Zlib",
+			"name": "zlib1g",
+			"sourceInfo": "built package from: zlib 1:1.2.11.dfsg-0ubuntu2",
+			"versionInfo": "1:1.2.11.dfsg-0ubuntu2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-f92f6b1c26e5dfa4",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/tar@1.29b-2?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0, GPL-2.0",
+			"licenseDeclared": "GPL-3.0, GPL-2.0",
+			"name": "tar",
+			"sourceInfo": "built package from: tar 1.29b-2",
+			"versionInfo": "1.29b-2"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fdc173059d4f9fae",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/bzip2@1.0.6-8.1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "bzip2",
+			"sourceInfo": "built package from: bzip2 1.0.6-8.1",
+			"versionInfo": "1.0.6-8.1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-fff232f3e9b10de0",
+			"attributionTexts": [
+				"LayerDigest: sha256:6b98dfc1607190243b0938e62c5ba2b7daedf2c56d7825dfb835208344705641",
+				"LayerDiffID: sha256:db9476e6d963ed2b6042abef1c354223148cdcdbd6c7416c71a019ebcaea0edb"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/ubuntu/libaudit-common@1:2.8.2-1ubuntu1?distro=ubuntu-18.04",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0, LGPL-2.1, GPL-1.0",
+			"licenseDeclared": "GPL-2.0, LGPL-2.1, GPL-1.0",
+			"name": "libaudit-common",
+			"sourceInfo": "built package from: audit 1:2.8.2-1ubuntu1",
+			"versionInfo": "1:2.8.2-1ubuntu1"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-ContainerImage-535407edb5f1944d",
+			"relationshipType": "DESCRIBE",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-OperatingSystem-bad34c2d474ce2ed",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-535407edb5f1944d"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3cc05152153decd0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bbc220a5bfefac6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-22c5671a5b466602",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1ec78bb709d4b45d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8f4ae076cfbac070",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-233f650c148e08eb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-32263137cc7900bc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fdc173059d4f9fae",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d82ac7e1f46486e2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ae1e7058de12658b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-80065899b16cc9cd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-742fbbac1f48bf2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7e5a18b2a723bf6f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f8a7bfedcc580ef5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-609215daad1a8668",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4244621109aea35e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bf608d60e9039eec",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-beeaa6f826881eda",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f48369dbdb2aa6fe",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2958e90617896ae2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-70f9c3f3b5eb8543",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-241bd480cdeb9e9d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d0e0ef0abcf7dcd4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-69844c54b40ffad9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5e4989c4f610851b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d774eb78a5c0985",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d4cfe71356f8984c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2902523487e611c3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8a6893c28dcb75ee",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-fff232f3e9b10de0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b877a7b781a5d91b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-888d3be5332c5f04",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c8a88819e7c564a5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-37e0e9e5eae79b34",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-14070a07855fb12",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bc3c2dea86265e13",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8adda742ed6092ce",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d012f4bca7ba3905",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a5429229da878013",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-599eb38bedf63841",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ea33be9c14e1db40",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6b4419a85f36430d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-28e5ce71882f33f3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-613f3c7b4263ff4d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-98933164349d69ee",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-47af2d9ed3cd04dd",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-28e0556081285cd7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-26c06d7c7ba0837a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d2078d0711d75057",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-94131f7826296f75",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-da664b9a3adaa511",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-bbba62aebe746ef",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cc1201ef9ba9effe",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cecf6f3e860fb174",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-82d45ec06af2e4fc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b0f008947b97d4ba",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-432821658b420ff4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-323c48c358daa702",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3b42469fdc52dd9f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-8c04fb0a4c45b1c2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-668bdb613077ba26",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5f81dc21feb940db",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c069bf0b6f1df479",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-50838c8c488c06da",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e8d79c587122b2a9",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-202bc4f002d3ba57",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-697d459edf12012a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-231bd3d62e727664",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-75d27d8de8120de1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6b306aabbb258975",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7be040e3699838df",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-aaaab8d281ecbd3c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ab7cc509c9781572",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1a33169f02d8d1b7",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-79c9be9083c58edf",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-a5705718c64ee68",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ea18cdf5f6be38c5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f7f55539662f462e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7a7a90049fb36001",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4262d6bb8d671c0a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c7e8e2a4067858e4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d2812835bb137163",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b28d0688a9265c94",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c6eab4bc74e65c50",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-695e753085577e74",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-4fc37515d5456a15",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7b2271d3714b183e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7d0334ac9b166f3c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2c99db3e7ff4c1f3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3a292b2e70315870",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f606b0dff47d916a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e363fa5984bac096",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5357eb6307d2b2bc",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ed1597c3e92e0a33",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f1e22e990061dc0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1c66936aa0676129",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-abbcf39ad4095ba6",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-710b554542ecf821",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9f3e26f183f522d4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-ae5d7c1ccceea4e3",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-363cdd4bac6656d8",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-85c24df3cac1a49a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cc77e9bb9938c27a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7ee1e475f5c48240",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-160bddcd25cab51d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7032f93724b5790b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-347ff999226e625d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-72343e0417ac2f7f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2d8c2ca11ea99473",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d97e0be70aa918bb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-122616f706748a41",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-293a894181f9a27f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-82c076e7f705afa1",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-df6c85fc938474f2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-409340ef0b3f8a",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-de61f51be1b40c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-cdf527ea20314e5",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5709aaac26f78b37",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-53909c58d7d220a0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-446e35a170b81e6d",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-801508303c7fc8a4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-1973aef313700d27",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-114dd6277d397655",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f6c59d7e34464766",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-e8a5dc01d4cd8f28",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-3dc43d31ed96a131",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-65b9f0f7a0b0c5eb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2cd86ce3d2bf29bb",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-d47996325a375fd2",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b049dd147c471442",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-2abea02487909017",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f0729046b6fb1ce4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-40561a57ace826ae",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-7d9284d3c284630c",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f92f6b1c26e5dfa4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-c528e53722b48a77",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-6826f1e91ee1452",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-9460691bfb2754b4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-f924498fda66daa0",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-bad34c2d474ce2ed"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

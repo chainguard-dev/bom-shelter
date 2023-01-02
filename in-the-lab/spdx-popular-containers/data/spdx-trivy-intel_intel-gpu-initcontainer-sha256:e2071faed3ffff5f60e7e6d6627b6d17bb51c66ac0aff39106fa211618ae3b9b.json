@@ -1,0 +1,125 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2022-12-28T13:57:50.181114Z",
+		"creators": [
+			"Tool: trivy",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentNamespace": "http://aquasecurity.github.io/trivy/container_image/intel/intel-gpu-initcontainer@sha256:e2071faed3ffff5f60e7e6d6627b6d17bb51c66ac0aff39106fa211618ae3b9b-9603562b-9e8f-4aef-83e1-d722ecb4a1b3",
+	"name": "intel/intel-gpu-initcontainer@sha256:e2071faed3ffff5f60e7e6d6627b6d17bb51c66ac0aff39106fa211618ae3b9b",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-ContainerImage-1b2746cb546df268",
+			"attributionTexts": [
+				"SchemaVersion: 2",
+				"ImageID: sha256:12002d43c78a1d4463a039bb306a071115090e76654541d51c19994a43a96761",
+				"RepoDigest: intel/intel-gpu-initcontainer@sha256:e2071faed3ffff5f60e7e6d6627b6d17bb51c66ac0aff39106fa211618ae3b9b",
+				"DiffID: sha256:cb60fb9b862c6a89f92e484bc3b72bbc0352b41166df5c4a68bfb52f52504a7d",
+				"DiffID: sha256:aa668e44073767d49a96c7705a680523fcb485410c17ea0210493217d273ea0c"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:oci/intel-gpu-initcontainer@sha256:e2071faed3ffff5f60e7e6d6627b6d17bb51c66ac0aff39106fa211618ae3b9b?repository_url=index.docker.io%2Fintel%2Fintel-gpu-initcontainer\u0026arch=amd64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"name": "intel/intel-gpu-initcontainer@sha256:e2071faed3ffff5f60e7e6d6627b6d17bb51c66ac0aff39106fa211618ae3b9b"
+		},
+		{
+			"SPDXID": "SPDXRef-OperatingSystem-261ae612b9917a14",
+			"filesAnalyzed": false,
+			"name": "debian",
+			"versionInfo": "11.6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-721b8f46a61dad0f",
+			"attributionTexts": [
+				"LayerDiffID: sha256:cb60fb9b862c6a89f92e484bc3b72bbc0352b41166df5c4a68bfb52f52504a7d"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/netbase@6.3?distro=debian-11.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "netbase",
+			"sourceInfo": "built package from: netbase 6.3",
+			"versionInfo": "6.3"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-75bb877709626aee",
+			"attributionTexts": [
+				"LayerDiffID: sha256:cb60fb9b862c6a89f92e484bc3b72bbc0352b41166df5c4a68bfb52f52504a7d"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/base-files@11.1+deb11u6?distro=debian-11.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "base-files",
+			"sourceInfo": "built package from: base-files 11.1+deb11u6",
+			"versionInfo": "11.1+deb11u6"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-b1e8bc834950d64b",
+			"attributionTexts": [
+				"LayerDiffID: sha256:cb60fb9b862c6a89f92e484bc3b72bbc0352b41166df5c4a68bfb52f52504a7d"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/tzdata@2021a-1+deb11u8?distro=debian-11.6",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "tzdata",
+			"sourceInfo": "built package from: tzdata 2021a-1+deb11u8",
+			"versionInfo": "2021a-1+deb11u8"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-ContainerImage-1b2746cb546df268",
+			"relationshipType": "DESCRIBE",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-OperatingSystem-261ae612b9917a14",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-1b2746cb546df268"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-75bb877709626aee",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-261ae612b9917a14"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-721b8f46a61dad0f",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-261ae612b9917a14"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-b1e8bc834950d64b",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-261ae612b9917a14"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}

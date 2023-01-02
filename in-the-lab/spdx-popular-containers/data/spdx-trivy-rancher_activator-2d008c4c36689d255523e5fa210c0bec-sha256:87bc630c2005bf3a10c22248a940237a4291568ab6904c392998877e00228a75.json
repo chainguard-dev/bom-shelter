@@ -1,0 +1,126 @@
+{
+	"SPDXID": "SPDXRef-DOCUMENT",
+	"creationInfo": {
+		"created": "2022-12-27T18:52:57.053065Z",
+		"creators": [
+			"Tool: trivy",
+			"Organization: aquasecurity"
+		]
+	},
+	"dataLicense": "CC0-1.0",
+	"documentNamespace": "http://aquasecurity.github.io/trivy/container_image/rancher/activator-2d008c4c36689d255523e5fa210c0bec@sha256:87bc630c2005bf3a10c22248a940237a4291568ab6904c392998877e00228a75-18da064f-618a-4f2b-9ff0-5398d0669dd9",
+	"name": "rancher/activator-2d008c4c36689d255523e5fa210c0bec@sha256:87bc630c2005bf3a10c22248a940237a4291568ab6904c392998877e00228a75",
+	"packages": [
+		{
+			"SPDXID": "SPDXRef-ContainerImage-d50ebf5ffc4620ed",
+			"attributionTexts": [
+				"SchemaVersion: 2",
+				"ImageID: sha256:7845d6da33411c738706ef43c2bdb20e7462544ba51c2519e5a625772723c230",
+				"RepoDigest: rancher/activator-2d008c4c36689d255523e5fa210c0bec@sha256:87bc630c2005bf3a10c22248a940237a4291568ab6904c392998877e00228a75",
+				"DiffID: sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02",
+				"DiffID: sha256:e78f33c5a9119009f2554766833bee0a9a13e559adb8a6ecbb4e15c696815612",
+				"DiffID: sha256:6f8cbde71353635f5e86da25a972ae1c36fd93d115005a2cd0bbb6a439cc6aa7"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:oci/activator-2d008c4c36689d255523e5fa210c0bec@sha256:87bc630c2005bf3a10c22248a940237a4291568ab6904c392998877e00228a75?repository_url=index.docker.io%2Francher%2Factivator-2d008c4c36689d255523e5fa210c0bec\u0026arch=amd64",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"name": "rancher/activator-2d008c4c36689d255523e5fa210c0bec@sha256:87bc630c2005bf3a10c22248a940237a4291568ab6904c392998877e00228a75"
+		},
+		{
+			"SPDXID": "SPDXRef-OperatingSystem-aff35219e3630e1e",
+			"filesAnalyzed": false,
+			"name": "debian",
+			"versionInfo": "9.9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-5dc50ee238a3ff84",
+			"attributionTexts": [
+				"LayerDiffID: sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/tzdata@2019a-0+deb9u1?distro=debian-9.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "NONE",
+			"licenseDeclared": "NONE",
+			"name": "tzdata",
+			"sourceInfo": "built package from: tzdata 2019a-0+deb9u1",
+			"versionInfo": "2019a-0+deb9u1"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-66614a8958155b62",
+			"attributionTexts": [
+				"LayerDiffID: sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/base-files@9.9+deb9u9?distro=debian-9.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-3.0",
+			"licenseDeclared": "GPL-3.0",
+			"name": "base-files",
+			"sourceInfo": "built package from: base-files 9.9+deb9u9",
+			"versionInfo": "9.9+deb9u9"
+		},
+		{
+			"SPDXID": "SPDXRef-Package-830f0040445751b4",
+			"attributionTexts": [
+				"LayerDiffID: sha256:932da51564135c98a49a34a193d6cd363d8fa4184d957fde16c9d8527b3f3b02"
+			],
+			"externalRefs": [
+				{
+					"referenceCategory": "PACKAGE-MANAGER",
+					"referenceLocator": "pkg:deb/debian/netbase@5.4?distro=debian-9.9",
+					"referenceType": "purl"
+				}
+			],
+			"filesAnalyzed": false,
+			"licenseConcluded": "GPL-2.0",
+			"licenseDeclared": "GPL-2.0",
+			"name": "netbase",
+			"sourceInfo": "built package from: netbase 5.4",
+			"versionInfo": "5.4"
+		}
+	],
+	"relationships": [
+		{
+			"relatedSpdxElement": "SPDXRef-ContainerImage-d50ebf5ffc4620ed",
+			"relationshipType": "DESCRIBE",
+			"spdxElementId": "SPDXRef-DOCUMENT"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-OperatingSystem-aff35219e3630e1e",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-ContainerImage-d50ebf5ffc4620ed"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-66614a8958155b62",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-aff35219e3630e1e"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-830f0040445751b4",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-aff35219e3630e1e"
+		},
+		{
+			"relatedSpdxElement": "SPDXRef-Package-5dc50ee238a3ff84",
+			"relationshipType": "CONTAINS",
+			"spdxElementId": "SPDXRef-OperatingSystem-aff35219e3630e1e"
+		}
+	],
+	"spdxVersion": "SPDX-2.2"
+}
